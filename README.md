@@ -34,3 +34,7 @@ Creating_Objects
 Viewing/Inspecting_Data
    - head/tail/info/describe/apply()
    - shape
+
+Data_selection
+   - df[col]/df[[col]]
+   - iloc[0]/loc[0]
