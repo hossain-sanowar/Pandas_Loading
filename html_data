@@ -1,0 +1,5486 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Bank Name</th>
+      <th>City</th>
+      <th>ST</th>
+      <th>CERT</th>
+      <th>Acquiring Institution</th>
+      <th>Closing Date</th>
+      <th>Updated Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Allied Bank</td>
+      <td>Mulberry</td>
+      <td>AR</td>
+      <td>91</td>
+      <td>Today's Bank</td>
+      <td>September 23, 2016</td>
+      <td>November 17, 2016</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>The Woodbury Banking Company</td>
+      <td>Woodbury</td>
+      <td>GA</td>
+      <td>11297</td>
+      <td>United Bank</td>
+      <td>August 19, 2016</td>
+      <td>November 17, 2016</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>First CornerStone Bank</td>
+      <td>King of Prussia</td>
+      <td>PA</td>
+      <td>35312</td>
+      <td>First-Citizens Bank &amp; Trust Company</td>
+      <td>May 6, 2016</td>
+      <td>September 6, 2016</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Trust Company Bank</td>
+      <td>Memphis</td>
+      <td>TN</td>
+      <td>9956</td>
+      <td>The Bank of Fayette County</td>
+      <td>April 29, 2016</td>
+      <td>September 6, 2016</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>North Milwaukee State Bank</td>
+      <td>Milwaukee</td>
+      <td>WI</td>
+      <td>20364</td>
+      <td>First-Citizens Bank &amp; Trust Company</td>
+      <td>March 11, 2016</td>
+      <td>June 16, 2016</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Hometown National Bank</td>
+      <td>Longview</td>
+      <td>WA</td>
+      <td>35156</td>
+      <td>Twin City Bank</td>
+      <td>October 2, 2015</td>
+      <td>April 13, 2016</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>The Bank of Georgia</td>
+      <td>Peachtree City</td>
+      <td>GA</td>
+      <td>35259</td>
+      <td>Fidelity Bank</td>
+      <td>October 2, 2015</td>
+      <td>October 24, 2016</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Premier Bank</td>
+      <td>Denver</td>
+      <td>CO</td>
+      <td>34112</td>
+      <td>United Fidelity Bank, fsb</td>
+      <td>July 10, 2015</td>
+      <td>August 17, 2016</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Edgebrook Bank</td>
+      <td>Chicago</td>
+      <td>IL</td>
+      <td>57772</td>
+      <td>Republic Bank of Chicago</td>
+      <td>May 8, 2015</td>
+      <td>July 12, 2016</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Doral Bank  En Espanol</td>
+      <td>San Juan</td>
+      <td>PR</td>
+      <td>32102</td>
+      <td>Banco Popular de Puerto Rico</td>
+      <td>February 27, 2015</td>
+      <td>May 13, 2015</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Capitol City Bank &amp; Trust Company</td>
+      <td>Atlanta</td>
+      <td>GA</td>
+      <td>33938</td>
+      <td>First-Citizens Bank &amp; Trust Company</td>
+      <td>February 13, 2015</td>
+      <td>April 21, 2015</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Highland Community Bank</td>
+      <td>Chicago</td>
+      <td>IL</td>
+      <td>20290</td>
+      <td>United Fidelity Bank, fsb</td>
+      <td>January 23, 2015</td>
+      <td>April 21, 2015</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>First National Bank of Crestview</td>
+      <td>Crestview</td>
+      <td>FL</td>
+      <td>17557</td>
+      <td>First NBC Bank</td>
+      <td>January 16, 2015</td>
+      <td>January 15, 2016</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Northern Star Bank</td>
+      <td>Mankato</td>
+      <td>MN</td>
+      <td>34983</td>
+      <td>BankVista</td>
+      <td>December 19, 2014</td>
+      <td>January 6, 2016</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Frontier Bank, FSB D/B/A El Paseo Bank</td>
+      <td>Palm Desert</td>
+      <td>CA</td>
+      <td>34738</td>
+      <td>Bank of Southern California, N.A.</td>
+      <td>November 7, 2014</td>
+      <td>November 10, 2016</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>The National Republic Bank of Chicago</td>
+      <td>Chicago</td>
+      <td>IL</td>
+      <td>916</td>
+      <td>State Bank of Texas</td>
+      <td>October 24, 2014</td>
+      <td>January 6, 2016</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>NBRS Financial</td>
+      <td>Rising Sun</td>
+      <td>MD</td>
+      <td>4862</td>
+      <td>Howard Bank</td>
+      <td>October 17, 2014</td>
+      <td>March 26, 2015</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>GreenChoice Bank, fsb</td>
+      <td>Chicago</td>
+      <td>IL</td>
+      <td>28462</td>
+      <td>Providence Bank, LLC</td>
+      <td>July 25, 2014</td>
+      <td>July 28, 2015</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Eastside Commercial Bank</td>
+      <td>Conyers</td>
+      <td>GA</td>
+      <td>58125</td>
+      <td>Community &amp; Southern Bank</td>
+      <td>July 18, 2014</td>
+      <td>July 11, 2016</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>The Freedom State Bank</td>
+      <td>Freedom</td>
+      <td>OK</td>
+      <td>12483</td>
+      <td>Alva State Bank &amp; Trust Company</td>
+      <td>June 27, 2014</td>
+      <td>March 25, 2016</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Valley Bank</td>
+      <td>Fort Lauderdale</td>
+      <td>FL</td>
+      <td>21793</td>
+      <td>Landmark Bank, National Association</td>
+      <td>June 20, 2014</td>
+      <td>June 29, 2015</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Valley Bank</td>
+      <td>Moline</td>
+      <td>IL</td>
+      <td>10450</td>
+      <td>Great Southern Bank</td>
+      <td>June 20, 2014</td>
+      <td>June 26, 2015</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Slavie Federal Savings Bank</td>
+      <td>Bel Air</td>
+      <td>MD</td>
+      <td>32368</td>
+      <td>Bay Bank, FSB</td>
+      <td>May 30, 2014</td>
+      <td>June 15, 2015</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Columbia Savings Bank</td>
+      <td>Cincinnati</td>
+      <td>OH</td>
+      <td>32284</td>
+      <td>United Fidelity Bank, fsb</td>
+      <td>May 23, 2014</td>
+      <td>November 10, 2016</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>AztecAmerica Bank En Espanol</td>
+      <td>Berwyn</td>
+      <td>IL</td>
+      <td>57866</td>
+      <td>Republic Bank of Chicago</td>
+      <td>May 16, 2014</td>
+      <td>October 20, 2016</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Allendale County Bank</td>
+      <td>Fairfax</td>
+      <td>SC</td>
+      <td>15062</td>
+      <td>Palmetto State Bank</td>
+      <td>April 25, 2014</td>
+      <td>July 18, 2014</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Vantage Point Bank</td>
+      <td>Horsham</td>
+      <td>PA</td>
+      <td>58531</td>
+      <td>First Choice Bank</td>
+      <td>February 28, 2014</td>
+      <td>March 3, 2015</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Millennium Bank, National Association</td>
+      <td>Sterling</td>
+      <td>VA</td>
+      <td>35096</td>
+      <td>WashingtonFirst Bank</td>
+      <td>February 28, 2014</td>
+      <td>March 03, 2015</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Syringa Bank</td>
+      <td>Boise</td>
+      <td>ID</td>
+      <td>34296</td>
+      <td>Sunwest Bank</td>
+      <td>January 31, 2014</td>
+      <td>April 12, 2016</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>The Bank of Union</td>
+      <td>El Reno</td>
+      <td>OK</td>
+      <td>17967</td>
+      <td>BancFirst</td>
+      <td>January 24, 2014</td>
+      <td>March 25, 2016</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>DuPage National Bank</td>
+      <td>West Chicago</td>
+      <td>IL</td>
+      <td>5732</td>
+      <td>Republic Bank of Chicago</td>
+      <td>January 17, 2014</td>
+      <td>October 20, 2016</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>Texas Community Bank, National Association</td>
+      <td>The Woodlands</td>
+      <td>TX</td>
+      <td>57431</td>
+      <td>Spirit of Texas Bank, SSB</td>
+      <td>December 13, 2013</td>
+      <td>December 29, 2014</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>Bank of Jackson County</td>
+      <td>Graceville</td>
+      <td>FL</td>
+      <td>14794</td>
+      <td>First Federal Bank of Florida</td>
+      <td>October 30, 2013</td>
+      <td>October 20, 2016</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>First National Bank also operating as The  National Bank of El Paso En Espanol</td>
+      <td>Edinburg</td>
+      <td>TX</td>
+      <td>14318</td>
+      <td>PlainsCapital Bank</td>
+      <td>September 13, 2013</td>
+      <td>May 27, 2015</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>The Community's Bank</td>
+      <td>Bridgeport</td>
+      <td>CT</td>
+      <td>57041</td>
+      <td>No Acquirer</td>
+      <td>September 13, 2013</td>
+      <td>December 7, 2015</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>Sunrise Bank of Arizona</td>
+      <td>Phoenix</td>
+      <td>AZ</td>
+      <td>34707</td>
+      <td>First Fidelity Bank, National Association</td>
+      <td>August 23, 2013</td>
+      <td>September 12, 2014</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>Community South Bank</td>
+      <td>Parsons</td>
+      <td>TN</td>
+      <td>19849</td>
+      <td>CB&amp;S Bank, Inc.</td>
+      <td>August 23, 2013</td>
+      <td>September 12, 2014</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>Bank of Wausau</td>
+      <td>Wausau</td>
+      <td>WI</td>
+      <td>35016</td>
+      <td>Nicolet National Bank</td>
+      <td>August 9, 2013</td>
+      <td>October 24, 2013</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>First Community Bank of Southwest Florida (also operating as Community Bank of Cape Coral)</td>
+      <td>Fort Myers</td>
+      <td>FL</td>
+      <td>34943</td>
+      <td>C1 Bank</td>
+      <td>August 2, 2013</td>
+      <td>August 4, 2014</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>Mountain National Bank</td>
+      <td>Sevierville</td>
+      <td>TN</td>
+      <td>34789</td>
+      <td>First Tennessee Bank, National Association</td>
+      <td>June 7, 2013</td>
+      <td>February 4, 2016</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>1st Commerce Bank</td>
+      <td>North Las Vegas</td>
+      <td>NV</td>
+      <td>58358</td>
+      <td>Plaza Bank</td>
+      <td>June 6, 2013</td>
+      <td>July 12, 2013</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>Banks of Wisconsin d/b/a Bank of Kenosha</td>
+      <td>Kenosha</td>
+      <td>WI</td>
+      <td>35386</td>
+      <td>North Shore Bank, FSB</td>
+      <td>May 31, 2013</td>
+      <td>June 2, 2014</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>Central Arizona Bank</td>
+      <td>Scottsdale</td>
+      <td>AZ</td>
+      <td>34527</td>
+      <td>Western State Bank</td>
+      <td>May 14, 2013</td>
+      <td>December 7, 2015</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>Sunrise Bank</td>
+      <td>Valdosta</td>
+      <td>GA</td>
+      <td>58185</td>
+      <td>Synovus Bank</td>
+      <td>May 10, 2013</td>
+      <td>June 26, 2014</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>Pisgah Community Bank</td>
+      <td>Asheville</td>
+      <td>NC</td>
+      <td>58701</td>
+      <td>Capital Bank, N.A.</td>
+      <td>May 10, 2013</td>
+      <td>August 8, 2016</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>Douglas County Bank</td>
+      <td>Douglasville</td>
+      <td>GA</td>
+      <td>21649</td>
+      <td>Hamilton State Bank</td>
+      <td>April 26, 2013</td>
+      <td>April 25, 2014</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>Parkway Bank</td>
+      <td>Lenoir</td>
+      <td>NC</td>
+      <td>57158</td>
+      <td>CertusBank, National Association</td>
+      <td>April 26, 2013</td>
+      <td>October 20, 2016</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>Chipola Community Bank</td>
+      <td>Marianna</td>
+      <td>FL</td>
+      <td>58034</td>
+      <td>First Federal Bank of Florida</td>
+      <td>April 19, 2013</td>
+      <td>September 21, 2015</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>Heritage Bank of North Florida</td>
+      <td>Orange Park</td>
+      <td>FL</td>
+      <td>26680</td>
+      <td>FirstAtlantic Bank</td>
+      <td>April 19, 2013</td>
+      <td>August 8, 2016</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>First Federal Bank</td>
+      <td>Lexington</td>
+      <td>KY</td>
+      <td>29594</td>
+      <td>Your Community Bank</td>
+      <td>April 19, 2013</td>
+      <td>April 24, 2014</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>Gold Canyon Bank</td>
+      <td>Gold Canyon</td>
+      <td>AZ</td>
+      <td>58066</td>
+      <td>First Scottsdale Bank, National Association</td>
+      <td>April 5, 2013</td>
+      <td>October 7, 2015</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>Frontier Bank</td>
+      <td>LaGrange</td>
+      <td>GA</td>
+      <td>16431</td>
+      <td>HeritageBank of the South</td>
+      <td>March 8, 2013</td>
+      <td>March 2, 2016</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>Covenant Bank</td>
+      <td>Chicago</td>
+      <td>IL</td>
+      <td>22476</td>
+      <td>Liberty Bank and Trust Company</td>
+      <td>February 15, 2013</td>
+      <td>September 21, 2015</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>1st Regents Bank</td>
+      <td>Andover</td>
+      <td>MN</td>
+      <td>57157</td>
+      <td>First Minnesota Bank</td>
+      <td>January 18, 2013</td>
+      <td>July 12, 2016</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>Westside Community Bank</td>
+      <td>University Place</td>
+      <td>WA</td>
+      <td>33997</td>
+      <td>Sunwest Bank</td>
+      <td>January 11, 2013</td>
+      <td>August 8, 2016</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>Community Bank of the Ozarks</td>
+      <td>Sunrise Beach</td>
+      <td>MO</td>
+      <td>27331</td>
+      <td>Bank of Sullivan</td>
+      <td>December 14, 2012</td>
+      <td>April 4, 2014</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>Hometown Community Bank</td>
+      <td>Braselton</td>
+      <td>GA</td>
+      <td>57928</td>
+      <td>CertusBank, National Association</td>
+      <td>November 16, 2012</td>
+      <td>January 6, 2016</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>Citizens First National Bank</td>
+      <td>Princeton</td>
+      <td>IL</td>
+      <td>3731</td>
+      <td>Heartland Bank and Trust Company</td>
+      <td>November 2, 2012</td>
+      <td>November 22, 2013</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>Heritage Bank of Florida</td>
+      <td>Lutz</td>
+      <td>FL</td>
+      <td>35009</td>
+      <td>Centennial Bank</td>
+      <td>November 2, 2012</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>NOVA Bank</td>
+      <td>Berwyn</td>
+      <td>PA</td>
+      <td>27148</td>
+      <td>No Acquirer</td>
+      <td>October 26, 2012</td>
+      <td>January 24, 2013</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>Excel Bank</td>
+      <td>Sedalia</td>
+      <td>MO</td>
+      <td>19189</td>
+      <td>Simmons First National Bank</td>
+      <td>October 19, 2012</td>
+      <td>October 22, 2013</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>First East Side Savings Bank</td>
+      <td>Tamarac</td>
+      <td>FL</td>
+      <td>28144</td>
+      <td>Stearns Bank N.A.</td>
+      <td>October 19, 2012</td>
+      <td>January 6, 2016</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>GulfSouth Private Bank</td>
+      <td>Destin</td>
+      <td>FL</td>
+      <td>58073</td>
+      <td>SmartBank</td>
+      <td>October 19, 2012</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>First United Bank</td>
+      <td>Crete</td>
+      <td>IL</td>
+      <td>20685</td>
+      <td>Old Plank Trail Community Bank, National Association</td>
+      <td>September 28, 2012</td>
+      <td>November 1, 2013</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>Truman Bank</td>
+      <td>St. Louis</td>
+      <td>MO</td>
+      <td>27316</td>
+      <td>Simmons First National Bank</td>
+      <td>September 14, 2012</td>
+      <td>December 17, 2012</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>First Commercial Bank</td>
+      <td>Bloomington</td>
+      <td>MN</td>
+      <td>35246</td>
+      <td>Republic Bank &amp; Trust Company</td>
+      <td>September 7, 2012</td>
+      <td>December 17, 2012</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>Waukegan Savings Bank</td>
+      <td>Waukegan</td>
+      <td>IL</td>
+      <td>28243</td>
+      <td>First Midwest Bank</td>
+      <td>August 3, 2012</td>
+      <td>December 7, 2015</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>Jasper Banking Company</td>
+      <td>Jasper</td>
+      <td>GA</td>
+      <td>16240</td>
+      <td>Stearns Bank N.A.</td>
+      <td>July 27, 2012</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>Second Federal Savings and Loan Association of Chicago</td>
+      <td>Chicago</td>
+      <td>IL</td>
+      <td>27986</td>
+      <td>Hinsdale Bank &amp; Trust Company</td>
+      <td>July 20, 2012</td>
+      <td>January 14, 2013</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>Heartland Bank</td>
+      <td>Leawood</td>
+      <td>KS</td>
+      <td>1361</td>
+      <td>Metcalf Bank</td>
+      <td>July 20, 2012</td>
+      <td>July 30, 2013</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>First Cherokee State Bank</td>
+      <td>Woodstock</td>
+      <td>GA</td>
+      <td>32711</td>
+      <td>Community &amp; Southern Bank</td>
+      <td>July 20, 2012</td>
+      <td>June 6, 2016</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>Georgia Trust Bank</td>
+      <td>Buford</td>
+      <td>GA</td>
+      <td>57847</td>
+      <td>Community &amp; Southern Bank</td>
+      <td>July 20, 2012</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>The Royal Palm Bank of Florida</td>
+      <td>Naples</td>
+      <td>FL</td>
+      <td>57096</td>
+      <td>First National Bank of the Gulf Coast</td>
+      <td>July 20, 2012</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>Glasgow Savings Bank</td>
+      <td>Glasgow</td>
+      <td>MO</td>
+      <td>1056</td>
+      <td>Regional Missouri Bank</td>
+      <td>July 13, 2012</td>
+      <td>August 19, 2014</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>Montgomery Bank &amp; Trust</td>
+      <td>Ailey</td>
+      <td>GA</td>
+      <td>19498</td>
+      <td>Ameris Bank</td>
+      <td>July 6, 2012</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>The Farmers Bank of Lynchburg</td>
+      <td>Lynchburg</td>
+      <td>TN</td>
+      <td>1690</td>
+      <td>Clayton Bank and Trust</td>
+      <td>June 15, 2012</td>
+      <td>August 8, 2016</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>Security Exchange Bank</td>
+      <td>Marietta</td>
+      <td>GA</td>
+      <td>35299</td>
+      <td>Fidelity Bank</td>
+      <td>June 15, 2012</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>Putnam State Bank</td>
+      <td>Palatka</td>
+      <td>FL</td>
+      <td>27405</td>
+      <td>Harbor Community Bank</td>
+      <td>June 15, 2012</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>Waccamaw Bank</td>
+      <td>Whiteville</td>
+      <td>NC</td>
+      <td>34515</td>
+      <td>First Community Bank</td>
+      <td>June 8, 2012</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>Farmers' and Traders' State Bank</td>
+      <td>Shabbona</td>
+      <td>IL</td>
+      <td>9257</td>
+      <td>First State Bank</td>
+      <td>June 8, 2012</td>
+      <td>October 10, 2012</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>Carolina Federal Savings Bank</td>
+      <td>Charleston</td>
+      <td>SC</td>
+      <td>35372</td>
+      <td>Bank of North Carolina</td>
+      <td>June 8, 2012</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>First Capital Bank</td>
+      <td>Kingfisher</td>
+      <td>OK</td>
+      <td>416</td>
+      <td>F &amp; M Bank</td>
+      <td>June 8, 2012</td>
+      <td>February 5, 2015</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>Alabama Trust Bank, National Association</td>
+      <td>Sylacauga</td>
+      <td>AL</td>
+      <td>35224</td>
+      <td>Southern States Bank</td>
+      <td>May 18, 2012</td>
+      <td>September 21, 2015</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>Security Bank, National Association</td>
+      <td>North Lauderdale</td>
+      <td>FL</td>
+      <td>23156</td>
+      <td>Banesco USA</td>
+      <td>May 4, 2012</td>
+      <td>April 12, 2016</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>Palm Desert National Bank</td>
+      <td>Palm Desert</td>
+      <td>CA</td>
+      <td>23632</td>
+      <td>Pacific Premier Bank</td>
+      <td>April 27, 2012</td>
+      <td>December 7, 2015</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>Plantation Federal Bank</td>
+      <td>Pawleys Island</td>
+      <td>SC</td>
+      <td>32503</td>
+      <td>First Federal Bank</td>
+      <td>April 27, 2012</td>
+      <td>November 10, 2016</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>Inter Savings Bank, fsb D/B/A InterBank, fsb</td>
+      <td>Maple Grove</td>
+      <td>MN</td>
+      <td>31495</td>
+      <td>Great Southern Bank</td>
+      <td>April 27, 2012</td>
+      <td>May 17, 2013</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>HarVest Bank of Maryland</td>
+      <td>Gaithersburg</td>
+      <td>MD</td>
+      <td>57766</td>
+      <td>Sonabank</td>
+      <td>April 27, 2012</td>
+      <td>September 21, 2015</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>Bank of the Eastern Shore</td>
+      <td>Cambridge</td>
+      <td>MD</td>
+      <td>26759</td>
+      <td>No Acquirer</td>
+      <td>April 27, 2012</td>
+      <td>October 17, 2012</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>Fort Lee Federal Savings Bank, FSB</td>
+      <td>Fort Lee</td>
+      <td>NJ</td>
+      <td>35527</td>
+      <td>Alma Bank</td>
+      <td>April 20, 2012</td>
+      <td>May 17, 2013</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>Fidelity Bank</td>
+      <td>Dearborn</td>
+      <td>MI</td>
+      <td>33883</td>
+      <td>The Huntington National Bank</td>
+      <td>March 30, 2012</td>
+      <td>February 4, 2014</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>Premier Bank</td>
+      <td>Wilmette</td>
+      <td>IL</td>
+      <td>35419</td>
+      <td>International Bank of Chicago</td>
+      <td>March 23, 2012</td>
+      <td>October 17, 2012</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>Covenant Bank &amp; Trust</td>
+      <td>Rock Spring</td>
+      <td>GA</td>
+      <td>58068</td>
+      <td>Stearns Bank, N.A.</td>
+      <td>March 23, 2012</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>New City Bank</td>
+      <td>Chicago</td>
+      <td>IL</td>
+      <td>57597</td>
+      <td>No Acquirer</td>
+      <td>March 9, 2012</td>
+      <td>October 29, 2012</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>Global Commerce Bank</td>
+      <td>Doraville</td>
+      <td>GA</td>
+      <td>34046</td>
+      <td>Metro City Bank</td>
+      <td>March 2, 2012</td>
+      <td>June 26, 2014</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>Home Savings of America</td>
+      <td>Little Falls</td>
+      <td>MN</td>
+      <td>29178</td>
+      <td>No Acquirer</td>
+      <td>February 24, 2012</td>
+      <td>December 17, 2012</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>Central Bank of Georgia</td>
+      <td>Ellaville</td>
+      <td>GA</td>
+      <td>5687</td>
+      <td>Ameris Bank</td>
+      <td>February 24, 2012</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>SCB Bank</td>
+      <td>Shelbyville</td>
+      <td>IN</td>
+      <td>29761</td>
+      <td>First Merchants Bank, National Association</td>
+      <td>February 10, 2012</td>
+      <td>February 19, 2015</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>Charter National Bank and Trust</td>
+      <td>Hoffman Estates</td>
+      <td>IL</td>
+      <td>23187</td>
+      <td>Barrington Bank &amp; Trust Company, National Association</td>
+      <td>February 10, 2012</td>
+      <td>March 25, 2013</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>BankEast</td>
+      <td>Knoxville</td>
+      <td>TN</td>
+      <td>19869</td>
+      <td>U.S. Bank, N.A.</td>
+      <td>January 27, 2012</td>
+      <td>December 7, 2015</td>
+    </tr>
+    <tr>
+      <th>100</th>
+      <td>Patriot Bank Minnesota</td>
+      <td>Forest Lake</td>
+      <td>MN</td>
+      <td>34823</td>
+      <td>First Resource Bank</td>
+      <td>January 27, 2012</td>
+      <td>September 12, 2012</td>
+    </tr>
+    <tr>
+      <th>101</th>
+      <td>Tennessee Commerce Bank</td>
+      <td>Franklin</td>
+      <td>TN</td>
+      <td>35296</td>
+      <td>Republic Bank &amp; Trust Company</td>
+      <td>January 27, 2012</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>102</th>
+      <td>First Guaranty Bank and Trust Company of Jacksonville</td>
+      <td>Jacksonville</td>
+      <td>FL</td>
+      <td>16579</td>
+      <td>CenterState Bank of Florida, N.A.</td>
+      <td>January 27, 2012</td>
+      <td>July 11, 2016</td>
+    </tr>
+    <tr>
+      <th>103</th>
+      <td>American Eagle Savings Bank</td>
+      <td>Boothwyn</td>
+      <td>PA</td>
+      <td>31581</td>
+      <td>Capital Bank, N.A.</td>
+      <td>January 20, 2012</td>
+      <td>January 25, 2013</td>
+    </tr>
+    <tr>
+      <th>104</th>
+      <td>The First State Bank</td>
+      <td>Stockbridge</td>
+      <td>GA</td>
+      <td>19252</td>
+      <td>Hamilton State Bank</td>
+      <td>January 20, 2012</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>105</th>
+      <td>Central Florida State Bank</td>
+      <td>Belleview</td>
+      <td>FL</td>
+      <td>57186</td>
+      <td>CenterState Bank of Florida, N.A.</td>
+      <td>January 20, 2012</td>
+      <td>June 6, 2016</td>
+    </tr>
+    <tr>
+      <th>106</th>
+      <td>Western National Bank</td>
+      <td>Phoenix</td>
+      <td>AZ</td>
+      <td>57917</td>
+      <td>Washington Federal</td>
+      <td>December 16, 2011</td>
+      <td>February 5, 2015</td>
+    </tr>
+    <tr>
+      <th>107</th>
+      <td>Premier Community Bank of the Emerald Coast</td>
+      <td>Crestview</td>
+      <td>FL</td>
+      <td>58343</td>
+      <td>Summit Bank</td>
+      <td>December 16, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>108</th>
+      <td>Central Progressive Bank</td>
+      <td>Lacombe</td>
+      <td>LA</td>
+      <td>19657</td>
+      <td>First NBC Bank</td>
+      <td>November 18, 2011</td>
+      <td>February 5, 2015</td>
+    </tr>
+    <tr>
+      <th>109</th>
+      <td>Polk County Bank</td>
+      <td>Johnston</td>
+      <td>IA</td>
+      <td>14194</td>
+      <td>Grinnell State Bank</td>
+      <td>November 18, 2011</td>
+      <td>August 15, 2012</td>
+    </tr>
+    <tr>
+      <th>110</th>
+      <td>Community Bank of Rockmart</td>
+      <td>Rockmart</td>
+      <td>GA</td>
+      <td>57860</td>
+      <td>Century Bank of Georgia</td>
+      <td>November 10, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>111</th>
+      <td>SunFirst Bank</td>
+      <td>Saint George</td>
+      <td>UT</td>
+      <td>57087</td>
+      <td>Cache Valley Bank</td>
+      <td>November 4, 2011</td>
+      <td>November 16, 2012</td>
+    </tr>
+    <tr>
+      <th>112</th>
+      <td>Mid City Bank, Inc.</td>
+      <td>Omaha</td>
+      <td>NE</td>
+      <td>19397</td>
+      <td>Premier Bank</td>
+      <td>November 4, 2011</td>
+      <td>August 15, 2012</td>
+    </tr>
+    <tr>
+      <th>113</th>
+      <td>All American Bank</td>
+      <td>Des Plaines</td>
+      <td>IL</td>
+      <td>57759</td>
+      <td>International Bank of Chicago</td>
+      <td>October 28, 2011</td>
+      <td>August 15, 2012</td>
+    </tr>
+    <tr>
+      <th>114</th>
+      <td>Community Banks of Colorado</td>
+      <td>Greenwood Village</td>
+      <td>CO</td>
+      <td>21132</td>
+      <td>Bank Midwest, N.A.</td>
+      <td>October 21, 2011</td>
+      <td>January 2, 2013</td>
+    </tr>
+    <tr>
+      <th>115</th>
+      <td>Community Capital Bank</td>
+      <td>Jonesboro</td>
+      <td>GA</td>
+      <td>57036</td>
+      <td>State Bank and Trust Company</td>
+      <td>October 21, 2011</td>
+      <td>January 6, 2016</td>
+    </tr>
+    <tr>
+      <th>116</th>
+      <td>Decatur First Bank</td>
+      <td>Decatur</td>
+      <td>GA</td>
+      <td>34392</td>
+      <td>Fidelity Bank</td>
+      <td>October 21, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>117</th>
+      <td>Old Harbor Bank</td>
+      <td>Clearwater</td>
+      <td>FL</td>
+      <td>57537</td>
+      <td>1st United Bank</td>
+      <td>October 21, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>118</th>
+      <td>Country Bank</td>
+      <td>Aledo</td>
+      <td>IL</td>
+      <td>35395</td>
+      <td>Blackhawk Bank &amp; Trust</td>
+      <td>October 14, 2011</td>
+      <td>August 15, 2012</td>
+    </tr>
+    <tr>
+      <th>119</th>
+      <td>First State Bank</td>
+      <td>Cranford</td>
+      <td>NJ</td>
+      <td>58046</td>
+      <td>Northfield Bank</td>
+      <td>October 14, 2011</td>
+      <td>November 8, 2012</td>
+    </tr>
+    <tr>
+      <th>120</th>
+      <td>Blue Ridge Savings Bank, Inc.</td>
+      <td>Asheville</td>
+      <td>NC</td>
+      <td>32347</td>
+      <td>Bank of North Carolina</td>
+      <td>October 14, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>121</th>
+      <td>Piedmont Community Bank</td>
+      <td>Gray</td>
+      <td>GA</td>
+      <td>57256</td>
+      <td>State Bank and Trust Company</td>
+      <td>October 14, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>122</th>
+      <td>Sun Security Bank</td>
+      <td>Ellington</td>
+      <td>MO</td>
+      <td>20115</td>
+      <td>Great Southern Bank</td>
+      <td>October 7, 2011</td>
+      <td>November 7, 2012</td>
+    </tr>
+    <tr>
+      <th>123</th>
+      <td>The RiverBank</td>
+      <td>Wyoming</td>
+      <td>MN</td>
+      <td>10216</td>
+      <td>Central Bank</td>
+      <td>October 7, 2011</td>
+      <td>November 7, 2012</td>
+    </tr>
+    <tr>
+      <th>124</th>
+      <td>First International Bank</td>
+      <td>Plano</td>
+      <td>TX</td>
+      <td>33513</td>
+      <td>American First National Bank</td>
+      <td>September 30, 2011</td>
+      <td>February 5, 2015</td>
+    </tr>
+    <tr>
+      <th>125</th>
+      <td>Citizens Bank of Northern California</td>
+      <td>Nevada City</td>
+      <td>CA</td>
+      <td>33983</td>
+      <td>Tri Counties Bank</td>
+      <td>September 23, 2011</td>
+      <td>October 9, 2012</td>
+    </tr>
+    <tr>
+      <th>126</th>
+      <td>Bank of the Commonwealth</td>
+      <td>Norfolk</td>
+      <td>VA</td>
+      <td>20408</td>
+      <td>Southern Bank and Trust Company</td>
+      <td>September 23, 2011</td>
+      <td>October 9, 2012</td>
+    </tr>
+    <tr>
+      <th>127</th>
+      <td>The First National Bank of Florida</td>
+      <td>Milton</td>
+      <td>FL</td>
+      <td>25155</td>
+      <td>CharterBank</td>
+      <td>September 9, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>128</th>
+      <td>CreekSide Bank</td>
+      <td>Woodstock</td>
+      <td>GA</td>
+      <td>58226</td>
+      <td>Georgia Commerce Bank</td>
+      <td>September 2, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>129</th>
+      <td>Patriot Bank of Georgia</td>
+      <td>Cumming</td>
+      <td>GA</td>
+      <td>58273</td>
+      <td>Georgia Commerce Bank</td>
+      <td>September 2, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>130</th>
+      <td>First Choice Bank</td>
+      <td>Geneva</td>
+      <td>IL</td>
+      <td>57212</td>
+      <td>Inland Bank &amp; Trust</td>
+      <td>August 19, 2011</td>
+      <td>February 5, 2015</td>
+    </tr>
+    <tr>
+      <th>131</th>
+      <td>First Southern National Bank</td>
+      <td>Statesboro</td>
+      <td>GA</td>
+      <td>57239</td>
+      <td>Heritage Bank of the South</td>
+      <td>August 19, 2011</td>
+      <td>March 2, 2016</td>
+    </tr>
+    <tr>
+      <th>132</th>
+      <td>Lydian Private Bank</td>
+      <td>Palm Beach</td>
+      <td>FL</td>
+      <td>35356</td>
+      <td>Sabadell United Bank, N.A.</td>
+      <td>August 19, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>133</th>
+      <td>Public Savings Bank</td>
+      <td>Huntingdon Valley</td>
+      <td>PA</td>
+      <td>34130</td>
+      <td>Capital Bank, N.A.</td>
+      <td>August 18, 2011</td>
+      <td>August 15, 2012</td>
+    </tr>
+    <tr>
+      <th>134</th>
+      <td>The First National Bank of Olathe</td>
+      <td>Olathe</td>
+      <td>KS</td>
+      <td>4744</td>
+      <td>Enterprise Bank &amp; Trust</td>
+      <td>August 12, 2011</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>135</th>
+      <td>Bank of Whitman</td>
+      <td>Colfax</td>
+      <td>WA</td>
+      <td>22528</td>
+      <td>Columbia State Bank</td>
+      <td>August 5, 2011</td>
+      <td>August 16, 2012</td>
+    </tr>
+    <tr>
+      <th>136</th>
+      <td>Bank of Shorewood</td>
+      <td>Shorewood</td>
+      <td>IL</td>
+      <td>22637</td>
+      <td>Heartland Bank and Trust Company</td>
+      <td>August 5, 2011</td>
+      <td>October 20, 2016</td>
+    </tr>
+    <tr>
+      <th>137</th>
+      <td>Integra Bank National Association</td>
+      <td>Evansville</td>
+      <td>IN</td>
+      <td>4392</td>
+      <td>Old National Bank</td>
+      <td>July 29, 2011</td>
+      <td>August 16, 2012</td>
+    </tr>
+    <tr>
+      <th>138</th>
+      <td>BankMeridian, N.A.</td>
+      <td>Columbia</td>
+      <td>SC</td>
+      <td>58222</td>
+      <td>SCBT National Association</td>
+      <td>July 29, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>139</th>
+      <td>Virginia Business Bank</td>
+      <td>Richmond</td>
+      <td>VA</td>
+      <td>58283</td>
+      <td>Xenith Bank</td>
+      <td>July 29, 2011</td>
+      <td>October 9, 2012</td>
+    </tr>
+    <tr>
+      <th>140</th>
+      <td>Bank of Choice</td>
+      <td>Greeley</td>
+      <td>CO</td>
+      <td>2994</td>
+      <td>Bank Midwest, N.A.</td>
+      <td>July 22, 2011</td>
+      <td>September 12, 2012</td>
+    </tr>
+    <tr>
+      <th>141</th>
+      <td>LandMark Bank of Florida</td>
+      <td>Sarasota</td>
+      <td>FL</td>
+      <td>35244</td>
+      <td>American Momentum Bank</td>
+      <td>July 22, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>142</th>
+      <td>Southshore Community Bank</td>
+      <td>Apollo Beach</td>
+      <td>FL</td>
+      <td>58056</td>
+      <td>American Momentum Bank</td>
+      <td>July 22, 2011</td>
+      <td>February 5, 2015</td>
+    </tr>
+    <tr>
+      <th>143</th>
+      <td>Summit Bank</td>
+      <td>Prescott</td>
+      <td>AZ</td>
+      <td>57442</td>
+      <td>The Foothills Bank</td>
+      <td>July 15, 2011</td>
+      <td>August 19, 2014</td>
+    </tr>
+    <tr>
+      <th>144</th>
+      <td>First Peoples Bank</td>
+      <td>Port St. Lucie</td>
+      <td>FL</td>
+      <td>34870</td>
+      <td>Premier American Bank, N.A.</td>
+      <td>July 15, 2011</td>
+      <td>July 12, 2016</td>
+    </tr>
+    <tr>
+      <th>145</th>
+      <td>High Trust Bank</td>
+      <td>Stockbridge</td>
+      <td>GA</td>
+      <td>19554</td>
+      <td>Ameris Bank</td>
+      <td>July 15, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>146</th>
+      <td>One Georgia Bank</td>
+      <td>Atlanta</td>
+      <td>GA</td>
+      <td>58238</td>
+      <td>Ameris Bank</td>
+      <td>July 15, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>147</th>
+      <td>Signature Bank</td>
+      <td>Windsor</td>
+      <td>CO</td>
+      <td>57835</td>
+      <td>Points West Community Bank</td>
+      <td>July 8, 2011</td>
+      <td>October 26, 2012</td>
+    </tr>
+    <tr>
+      <th>148</th>
+      <td>Colorado Capital Bank</td>
+      <td>Castle Rock</td>
+      <td>CO</td>
+      <td>34522</td>
+      <td>First-Citizens Bank &amp; Trust Company</td>
+      <td>July 8, 2011</td>
+      <td>November 10, 2016</td>
+    </tr>
+    <tr>
+      <th>149</th>
+      <td>First Chicago Bank &amp; Trust</td>
+      <td>Chicago</td>
+      <td>IL</td>
+      <td>27935</td>
+      <td>Northbrook Bank &amp; Trust Company</td>
+      <td>July 8, 2011</td>
+      <td>September 9, 2012</td>
+    </tr>
+    <tr>
+      <th>150</th>
+      <td>Mountain Heritage Bank</td>
+      <td>Clayton</td>
+      <td>GA</td>
+      <td>57593</td>
+      <td>First American Bank and Trust Company</td>
+      <td>June 24, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>151</th>
+      <td>First Commercial Bank of Tampa Bay</td>
+      <td>Tampa</td>
+      <td>FL</td>
+      <td>27583</td>
+      <td>Stonegate Bank</td>
+      <td>June 17, 2011</td>
+      <td>September 12, 2016</td>
+    </tr>
+    <tr>
+      <th>152</th>
+      <td>McIntosh State Bank</td>
+      <td>Jackson</td>
+      <td>GA</td>
+      <td>19237</td>
+      <td>Hamilton State Bank</td>
+      <td>June 17, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>153</th>
+      <td>Atlantic Bank and Trust</td>
+      <td>Charleston</td>
+      <td>SC</td>
+      <td>58420</td>
+      <td>First Citizens Bank and Trust Company, Inc.</td>
+      <td>June 3, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>154</th>
+      <td>First Heritage Bank</td>
+      <td>Snohomish</td>
+      <td>WA</td>
+      <td>23626</td>
+      <td>Columbia State Bank</td>
+      <td>May 27, 2011</td>
+      <td>January 28, 2013</td>
+    </tr>
+    <tr>
+      <th>155</th>
+      <td>Summit Bank</td>
+      <td>Burlington</td>
+      <td>WA</td>
+      <td>513</td>
+      <td>Columbia State Bank</td>
+      <td>May 20, 2011</td>
+      <td>January 22, 2013</td>
+    </tr>
+    <tr>
+      <th>156</th>
+      <td>First Georgia Banking Company</td>
+      <td>Franklin</td>
+      <td>GA</td>
+      <td>57647</td>
+      <td>CertusBank, National Association</td>
+      <td>May 20, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>157</th>
+      <td>Atlantic Southern Bank</td>
+      <td>Macon</td>
+      <td>GA</td>
+      <td>57213</td>
+      <td>CertusBank, National Association</td>
+      <td>May 20, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>158</th>
+      <td>Coastal Bank</td>
+      <td>Cocoa Beach</td>
+      <td>FL</td>
+      <td>34898</td>
+      <td>Florida Community Bank, a division of Premier American Bank, N.A.</td>
+      <td>May 6, 2011</td>
+      <td>September 21, 2015</td>
+    </tr>
+    <tr>
+      <th>159</th>
+      <td>Community Central Bank</td>
+      <td>Mount Clemens</td>
+      <td>MI</td>
+      <td>34234</td>
+      <td>Talmer Bank &amp; Trust</td>
+      <td>April 29, 2011</td>
+      <td>August 16, 2012</td>
+    </tr>
+    <tr>
+      <th>160</th>
+      <td>The Park Avenue Bank</td>
+      <td>Valdosta</td>
+      <td>GA</td>
+      <td>19797</td>
+      <td>Bank of the Ozarks</td>
+      <td>April 29, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>161</th>
+      <td>First Choice Community Bank</td>
+      <td>Dallas</td>
+      <td>GA</td>
+      <td>58539</td>
+      <td>Bank of the Ozarks</td>
+      <td>April 29, 2011</td>
+      <td>September 21, 2015</td>
+    </tr>
+    <tr>
+      <th>162</th>
+      <td>Cortez Community Bank</td>
+      <td>Brooksville</td>
+      <td>FL</td>
+      <td>57625</td>
+      <td>Florida Community Bank, a division of Premier American Bank, N.A.</td>
+      <td>April 29, 2011</td>
+      <td>August 8, 2016</td>
+    </tr>
+    <tr>
+      <th>163</th>
+      <td>First National Bank of Central Florida</td>
+      <td>Winter Park</td>
+      <td>FL</td>
+      <td>26297</td>
+      <td>Florida Community Bank, a division of Premier American Bank, N.A.</td>
+      <td>April 29, 2011</td>
+      <td>May 4, 2016</td>
+    </tr>
+    <tr>
+      <th>164</th>
+      <td>Heritage Banking Group</td>
+      <td>Carthage</td>
+      <td>MS</td>
+      <td>14273</td>
+      <td>Trustmark National Bank</td>
+      <td>April 15, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>165</th>
+      <td>Rosemount National Bank</td>
+      <td>Rosemount</td>
+      <td>MN</td>
+      <td>24099</td>
+      <td>Central Bank</td>
+      <td>April 15, 2011</td>
+      <td>December 7, 2015</td>
+    </tr>
+    <tr>
+      <th>166</th>
+      <td>Superior Bank</td>
+      <td>Birmingham</td>
+      <td>AL</td>
+      <td>17750</td>
+      <td>Superior Bank, National Association</td>
+      <td>April 15, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>167</th>
+      <td>Nexity Bank</td>
+      <td>Birmingham</td>
+      <td>AL</td>
+      <td>19794</td>
+      <td>AloStar Bank of Commerce</td>
+      <td>April 15, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>168</th>
+      <td>New Horizons Bank</td>
+      <td>East Ellijay</td>
+      <td>GA</td>
+      <td>57705</td>
+      <td>Citizens South Bank</td>
+      <td>April 15, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>169</th>
+      <td>Bartow County Bank</td>
+      <td>Cartersville</td>
+      <td>GA</td>
+      <td>21495</td>
+      <td>Hamilton State Bank</td>
+      <td>April 15, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>170</th>
+      <td>Nevada Commerce Bank</td>
+      <td>Las Vegas</td>
+      <td>NV</td>
+      <td>35418</td>
+      <td>City National Bank</td>
+      <td>April 8, 2011</td>
+      <td>September 9, 2012</td>
+    </tr>
+    <tr>
+      <th>171</th>
+      <td>Western Springs National Bank and Trust</td>
+      <td>Western Springs</td>
+      <td>IL</td>
+      <td>10086</td>
+      <td>Heartland Bank and Trust Company</td>
+      <td>April 8, 2011</td>
+      <td>January 22, 2013</td>
+    </tr>
+    <tr>
+      <th>172</th>
+      <td>The Bank of Commerce</td>
+      <td>Wood Dale</td>
+      <td>IL</td>
+      <td>34292</td>
+      <td>Advantage National Bank Group</td>
+      <td>March 25, 2011</td>
+      <td>January 22, 2013</td>
+    </tr>
+    <tr>
+      <th>173</th>
+      <td>Legacy Bank</td>
+      <td>Milwaukee</td>
+      <td>WI</td>
+      <td>34818</td>
+      <td>Seaway Bank and Trust Company</td>
+      <td>March 11, 2011</td>
+      <td>September 12, 2012</td>
+    </tr>
+    <tr>
+      <th>174</th>
+      <td>First National Bank of Davis</td>
+      <td>Davis</td>
+      <td>OK</td>
+      <td>4077</td>
+      <td>The Pauls Valley National Bank</td>
+      <td>March 11, 2011</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>175</th>
+      <td>Valley Community Bank</td>
+      <td>St. Charles</td>
+      <td>IL</td>
+      <td>34187</td>
+      <td>First State Bank</td>
+      <td>February 25, 2011</td>
+      <td>February 5, 2015</td>
+    </tr>
+    <tr>
+      <th>176</th>
+      <td>San Luis Trust Bank, FSB</td>
+      <td>San Luis Obispo</td>
+      <td>CA</td>
+      <td>34783</td>
+      <td>First California Bank</td>
+      <td>February 18, 2011</td>
+      <td>September 12, 2016</td>
+    </tr>
+    <tr>
+      <th>177</th>
+      <td>Charter Oak Bank</td>
+      <td>Napa</td>
+      <td>CA</td>
+      <td>57855</td>
+      <td>Bank of Marin</td>
+      <td>February 18, 2011</td>
+      <td>September 12, 2012</td>
+    </tr>
+    <tr>
+      <th>178</th>
+      <td>Citizens Bank of Effingham</td>
+      <td>Springfield</td>
+      <td>GA</td>
+      <td>34601</td>
+      <td>Heritage Bank of the South</td>
+      <td>February 18, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>179</th>
+      <td>Habersham Bank</td>
+      <td>Clarkesville</td>
+      <td>GA</td>
+      <td>151</td>
+      <td>SCBT National Association</td>
+      <td>February 18, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>180</th>
+      <td>Canyon National Bank</td>
+      <td>Palm Springs</td>
+      <td>CA</td>
+      <td>34692</td>
+      <td>Pacific Premier Bank</td>
+      <td>February 11, 2011</td>
+      <td>August 19, 2014</td>
+    </tr>
+    <tr>
+      <th>181</th>
+      <td>Badger State Bank</td>
+      <td>Cassville</td>
+      <td>WI</td>
+      <td>13272</td>
+      <td>Royal Bank</td>
+      <td>February 11, 2011</td>
+      <td>September 12, 2012</td>
+    </tr>
+    <tr>
+      <th>182</th>
+      <td>Peoples State Bank</td>
+      <td>Hamtramck</td>
+      <td>MI</td>
+      <td>14939</td>
+      <td>First Michigan Bank</td>
+      <td>February 11, 2011</td>
+      <td>January 22, 2013</td>
+    </tr>
+    <tr>
+      <th>183</th>
+      <td>Sunshine State Community Bank</td>
+      <td>Port Orange</td>
+      <td>FL</td>
+      <td>35478</td>
+      <td>Premier American Bank, N.A.</td>
+      <td>February 11, 2011</td>
+      <td>August 8, 2016</td>
+    </tr>
+    <tr>
+      <th>184</th>
+      <td>Community First Bank Chicago</td>
+      <td>Chicago</td>
+      <td>IL</td>
+      <td>57948</td>
+      <td>Northbrook Bank &amp; Trust Company</td>
+      <td>February 4, 2011</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>185</th>
+      <td>North Georgia Bank</td>
+      <td>Watkinsville</td>
+      <td>GA</td>
+      <td>35242</td>
+      <td>BankSouth</td>
+      <td>February 4, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>186</th>
+      <td>American Trust Bank</td>
+      <td>Roswell</td>
+      <td>GA</td>
+      <td>57432</td>
+      <td>Renasant Bank</td>
+      <td>February 4, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>187</th>
+      <td>First Community Bank</td>
+      <td>Taos</td>
+      <td>NM</td>
+      <td>12261</td>
+      <td>U.S. Bank, N.A.</td>
+      <td>January 28, 2011</td>
+      <td>September 12, 2012</td>
+    </tr>
+    <tr>
+      <th>188</th>
+      <td>FirsTier Bank</td>
+      <td>Louisville</td>
+      <td>CO</td>
+      <td>57646</td>
+      <td>No Acquirer</td>
+      <td>January 28, 2011</td>
+      <td>September 12, 2012</td>
+    </tr>
+    <tr>
+      <th>189</th>
+      <td>Evergreen State Bank</td>
+      <td>Stoughton</td>
+      <td>WI</td>
+      <td>5328</td>
+      <td>McFarland State Bank</td>
+      <td>January 28, 2011</td>
+      <td>September 12, 2012</td>
+    </tr>
+    <tr>
+      <th>190</th>
+      <td>The First State Bank</td>
+      <td>Camargo</td>
+      <td>OK</td>
+      <td>2303</td>
+      <td>Bank 7</td>
+      <td>January 28, 2011</td>
+      <td>September 12, 2012</td>
+    </tr>
+    <tr>
+      <th>191</th>
+      <td>United Western Bank</td>
+      <td>Denver</td>
+      <td>CO</td>
+      <td>31293</td>
+      <td>First-Citizens Bank &amp; Trust Company</td>
+      <td>January 21, 2011</td>
+      <td>September 12, 2012</td>
+    </tr>
+    <tr>
+      <th>192</th>
+      <td>The Bank of Asheville</td>
+      <td>Asheville</td>
+      <td>NC</td>
+      <td>34516</td>
+      <td>First Bank</td>
+      <td>January 21, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>193</th>
+      <td>CommunitySouth Bank &amp; Trust</td>
+      <td>Easley</td>
+      <td>SC</td>
+      <td>57868</td>
+      <td>CertusBank, National Association</td>
+      <td>January 21, 2011</td>
+      <td>June 6, 2016</td>
+    </tr>
+    <tr>
+      <th>194</th>
+      <td>Enterprise Banking Company</td>
+      <td>McDonough</td>
+      <td>GA</td>
+      <td>19758</td>
+      <td>No Acquirer</td>
+      <td>January 21, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>195</th>
+      <td>Oglethorpe Bank</td>
+      <td>Brunswick</td>
+      <td>GA</td>
+      <td>57440</td>
+      <td>Bank of the Ozarks</td>
+      <td>January 14, 2011</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>196</th>
+      <td>Legacy Bank</td>
+      <td>Scottsdale</td>
+      <td>AZ</td>
+      <td>57820</td>
+      <td>Enterprise Bank &amp; Trust</td>
+      <td>January 7, 2011</td>
+      <td>April 12, 2016</td>
+    </tr>
+    <tr>
+      <th>197</th>
+      <td>First Commercial Bank of Florida</td>
+      <td>Orlando</td>
+      <td>FL</td>
+      <td>34965</td>
+      <td>First Southern Bank</td>
+      <td>January 7, 2011</td>
+      <td>June 6, 2016</td>
+    </tr>
+    <tr>
+      <th>198</th>
+      <td>Community National Bank</td>
+      <td>Lino Lakes</td>
+      <td>MN</td>
+      <td>23306</td>
+      <td>Farmers &amp; Merchants Savings Bank</td>
+      <td>December 17, 2010</td>
+      <td>November 10, 2016</td>
+    </tr>
+    <tr>
+      <th>199</th>
+      <td>First Southern Bank</td>
+      <td>Batesville</td>
+      <td>AR</td>
+      <td>58052</td>
+      <td>Southern Bank</td>
+      <td>December 17, 2010</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>200</th>
+      <td>United Americas Bank, N.A.</td>
+      <td>Atlanta</td>
+      <td>GA</td>
+      <td>35065</td>
+      <td>State Bank and Trust Company</td>
+      <td>December 17, 2010</td>
+      <td>October 17, 2015</td>
+    </tr>
+    <tr>
+      <th>201</th>
+      <td>Appalachian Community Bank, FSB</td>
+      <td>McCaysville</td>
+      <td>GA</td>
+      <td>58495</td>
+      <td>Peoples Bank of East Tennessee</td>
+      <td>December 17, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>202</th>
+      <td>Chestatee State Bank</td>
+      <td>Dawsonville</td>
+      <td>GA</td>
+      <td>34578</td>
+      <td>Bank of the Ozarks</td>
+      <td>December 17, 2010</td>
+      <td>September 21, 2015</td>
+    </tr>
+    <tr>
+      <th>203</th>
+      <td>The Bank of Miami,N.A.</td>
+      <td>Coral Gables</td>
+      <td>FL</td>
+      <td>19040</td>
+      <td>1st United Bank</td>
+      <td>December 17, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>204</th>
+      <td>Earthstar Bank</td>
+      <td>Southampton</td>
+      <td>PA</td>
+      <td>35561</td>
+      <td>Polonia Bank</td>
+      <td>December 10, 2010</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>205</th>
+      <td>Paramount Bank</td>
+      <td>Farmington Hills</td>
+      <td>MI</td>
+      <td>34673</td>
+      <td>Level One Bank</td>
+      <td>December 10, 2010</td>
+      <td>September 21, 2015</td>
+    </tr>
+    <tr>
+      <th>206</th>
+      <td>First Banking Center</td>
+      <td>Burlington</td>
+      <td>WI</td>
+      <td>5287</td>
+      <td>First Michigan Bank</td>
+      <td>November 19, 2010</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>207</th>
+      <td>Allegiance Bank of North America</td>
+      <td>Bala Cynwyd</td>
+      <td>PA</td>
+      <td>35078</td>
+      <td>VIST Bank</td>
+      <td>November 19, 2010</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>208</th>
+      <td>Gulf State Community Bank</td>
+      <td>Carrabelle</td>
+      <td>FL</td>
+      <td>20340</td>
+      <td>Centennial Bank</td>
+      <td>November 19, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>209</th>
+      <td>Copper Star Bank</td>
+      <td>Scottsdale</td>
+      <td>AZ</td>
+      <td>35463</td>
+      <td>Stearns Bank, N.A.</td>
+      <td>November 12, 2010</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>210</th>
+      <td>Darby Bank &amp; Trust Co.</td>
+      <td>Vidalia</td>
+      <td>GA</td>
+      <td>14580</td>
+      <td>Ameris Bank</td>
+      <td>November 12, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>211</th>
+      <td>Tifton Banking Company</td>
+      <td>Tifton</td>
+      <td>GA</td>
+      <td>57831</td>
+      <td>Ameris Bank</td>
+      <td>November 12, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>212</th>
+      <td>First Vietnamese American Bank  In Vietnamese</td>
+      <td>Westminster</td>
+      <td>CA</td>
+      <td>57885</td>
+      <td>Grandpoint Bank</td>
+      <td>November 5, 2010</td>
+      <td>September 12, 2012</td>
+    </tr>
+    <tr>
+      <th>213</th>
+      <td>Pierce Commercial Bank</td>
+      <td>Tacoma</td>
+      <td>WA</td>
+      <td>34411</td>
+      <td>Heritage Bank</td>
+      <td>November 5, 2010</td>
+      <td>October 19, 2015</td>
+    </tr>
+    <tr>
+      <th>214</th>
+      <td>Western Commercial Bank</td>
+      <td>Woodland Hills</td>
+      <td>CA</td>
+      <td>58087</td>
+      <td>First California Bank</td>
+      <td>November 5, 2010</td>
+      <td>September 12, 2016</td>
+    </tr>
+    <tr>
+      <th>215</th>
+      <td>K Bank</td>
+      <td>Randallstown</td>
+      <td>MD</td>
+      <td>31263</td>
+      <td>Manufacturers and Traders Trust Company (M&amp;T Bank)</td>
+      <td>November 5, 2010</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>216</th>
+      <td>First Arizona Savings, A FSB</td>
+      <td>Scottsdale</td>
+      <td>AZ</td>
+      <td>32582</td>
+      <td>No Acquirer</td>
+      <td>October 22, 2010</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>217</th>
+      <td>Hillcrest Bank</td>
+      <td>Overland Park</td>
+      <td>KS</td>
+      <td>22173</td>
+      <td>Hillcrest Bank, N.A.</td>
+      <td>October 22, 2010</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>218</th>
+      <td>First Suburban National Bank</td>
+      <td>Maywood</td>
+      <td>IL</td>
+      <td>16089</td>
+      <td>Seaway Bank and Trust Company</td>
+      <td>October 22, 2010</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>219</th>
+      <td>The First National Bank of Barnesville</td>
+      <td>Barnesville</td>
+      <td>GA</td>
+      <td>2119</td>
+      <td>United Bank</td>
+      <td>October 22, 2010</td>
+      <td>October 17, 2015</td>
+    </tr>
+    <tr>
+      <th>220</th>
+      <td>The Gordon Bank</td>
+      <td>Gordon</td>
+      <td>GA</td>
+      <td>33904</td>
+      <td>Morris Bank</td>
+      <td>October 22, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>221</th>
+      <td>Progress Bank of Florida</td>
+      <td>Tampa</td>
+      <td>FL</td>
+      <td>32251</td>
+      <td>Bay Cities Bank</td>
+      <td>October 22, 2010</td>
+      <td>February 4, 2016</td>
+    </tr>
+    <tr>
+      <th>222</th>
+      <td>First Bank of Jacksonville</td>
+      <td>Jacksonville</td>
+      <td>FL</td>
+      <td>27573</td>
+      <td>Ameris Bank</td>
+      <td>October 22, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>223</th>
+      <td>Premier Bank</td>
+      <td>Jefferson City</td>
+      <td>MO</td>
+      <td>34016</td>
+      <td>Providence Bank</td>
+      <td>October 15, 2010</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>224</th>
+      <td>WestBridge Bank and Trust Company</td>
+      <td>Chesterfield</td>
+      <td>MO</td>
+      <td>58205</td>
+      <td>Midland States Bank</td>
+      <td>October 15, 2010</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>225</th>
+      <td>Security Savings Bank, F.S.B.</td>
+      <td>Olathe</td>
+      <td>KS</td>
+      <td>30898</td>
+      <td>Simmons First National Bank</td>
+      <td>October 15, 2010</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>226</th>
+      <td>Shoreline Bank</td>
+      <td>Shoreline</td>
+      <td>WA</td>
+      <td>35250</td>
+      <td>GBC International Bank</td>
+      <td>October 1, 2010</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>227</th>
+      <td>Wakulla Bank</td>
+      <td>Crawfordville</td>
+      <td>FL</td>
+      <td>21777</td>
+      <td>Centennial Bank</td>
+      <td>October 1, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>228</th>
+      <td>North County Bank</td>
+      <td>Arlington</td>
+      <td>WA</td>
+      <td>35053</td>
+      <td>Whidbey Island Bank</td>
+      <td>September 24, 2010</td>
+      <td>April 12, 2016</td>
+    </tr>
+    <tr>
+      <th>229</th>
+      <td>Haven Trust Bank Florida</td>
+      <td>Ponte Vedra Beach</td>
+      <td>FL</td>
+      <td>58308</td>
+      <td>First Southern Bank</td>
+      <td>September 24, 2010</td>
+      <td>July 11, 2016</td>
+    </tr>
+    <tr>
+      <th>230</th>
+      <td>Maritime Savings Bank</td>
+      <td>West Allis</td>
+      <td>WI</td>
+      <td>28612</td>
+      <td>North Shore Bank, FSB</td>
+      <td>September 17, 2010</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>231</th>
+      <td>Bramble Savings Bank</td>
+      <td>Milford</td>
+      <td>OH</td>
+      <td>27808</td>
+      <td>Foundation Bank</td>
+      <td>September 17, 2010</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>232</th>
+      <td>The Peoples Bank</td>
+      <td>Winder</td>
+      <td>GA</td>
+      <td>182</td>
+      <td>Community &amp; Southern Bank</td>
+      <td>September 17, 2010</td>
+      <td>May 4, 2016</td>
+    </tr>
+    <tr>
+      <th>233</th>
+      <td>First Commerce Community Bank</td>
+      <td>Douglasville</td>
+      <td>GA</td>
+      <td>57448</td>
+      <td>Community &amp; Southern Bank</td>
+      <td>September 17, 2010</td>
+      <td>May 4, 2016</td>
+    </tr>
+    <tr>
+      <th>234</th>
+      <td>Bank of Ellijay</td>
+      <td>Ellijay</td>
+      <td>GA</td>
+      <td>58197</td>
+      <td>Community &amp; Southern Bank</td>
+      <td>September 17, 2010</td>
+      <td>June 6, 2016</td>
+    </tr>
+    <tr>
+      <th>235</th>
+      <td>ISN Bank</td>
+      <td>Cherry Hill</td>
+      <td>NJ</td>
+      <td>57107</td>
+      <td>Customers Bank</td>
+      <td>September 17, 2010</td>
+      <td>August 22, 2012</td>
+    </tr>
+    <tr>
+      <th>236</th>
+      <td>Horizon Bank</td>
+      <td>Bradenton</td>
+      <td>FL</td>
+      <td>35061</td>
+      <td>Bank of the Ozarks</td>
+      <td>September 10, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>237</th>
+      <td>Sonoma Valley Bank</td>
+      <td>Sonoma</td>
+      <td>CA</td>
+      <td>27259</td>
+      <td>Westamerica Bank</td>
+      <td>August 20, 2010</td>
+      <td>September 12, 2012</td>
+    </tr>
+    <tr>
+      <th>238</th>
+      <td>Los Padres Bank</td>
+      <td>Solvang</td>
+      <td>CA</td>
+      <td>32165</td>
+      <td>Pacific Western Bank</td>
+      <td>August 20, 2010</td>
+      <td>September 12, 2012</td>
+    </tr>
+    <tr>
+      <th>239</th>
+      <td>Butte Community Bank</td>
+      <td>Chico</td>
+      <td>CA</td>
+      <td>33219</td>
+      <td>Rabobank, N.A.</td>
+      <td>August 20, 2010</td>
+      <td>September 12, 2012</td>
+    </tr>
+    <tr>
+      <th>240</th>
+      <td>Pacific State Bank</td>
+      <td>Stockton</td>
+      <td>CA</td>
+      <td>27090</td>
+      <td>Rabobank, N.A.</td>
+      <td>August 20, 2010</td>
+      <td>September 12, 2012</td>
+    </tr>
+    <tr>
+      <th>241</th>
+      <td>ShoreBank</td>
+      <td>Chicago</td>
+      <td>IL</td>
+      <td>15640</td>
+      <td>Urban Partnership Bank</td>
+      <td>August 20, 2010</td>
+      <td>May 16, 2013</td>
+    </tr>
+    <tr>
+      <th>242</th>
+      <td>Imperial Savings and Loan Association</td>
+      <td>Martinsville</td>
+      <td>VA</td>
+      <td>31623</td>
+      <td>River Community Bank, N.A.</td>
+      <td>August 20, 2010</td>
+      <td>August 24, 2012</td>
+    </tr>
+    <tr>
+      <th>243</th>
+      <td>Independent National Bank</td>
+      <td>Ocala</td>
+      <td>FL</td>
+      <td>27344</td>
+      <td>CenterState Bank of Florida, N.A.</td>
+      <td>August 20, 2010</td>
+      <td>October 20, 2016</td>
+    </tr>
+    <tr>
+      <th>244</th>
+      <td>Community National Bank at Bartow</td>
+      <td>Bartow</td>
+      <td>FL</td>
+      <td>25266</td>
+      <td>CenterState Bank of Florida, N.A.</td>
+      <td>August 20, 2010</td>
+      <td>July 11, 2016</td>
+    </tr>
+    <tr>
+      <th>245</th>
+      <td>Palos Bank and Trust Company</td>
+      <td>Palos Heights</td>
+      <td>IL</td>
+      <td>17599</td>
+      <td>First Midwest Bank</td>
+      <td>August 13, 2010</td>
+      <td>August 22, 2012</td>
+    </tr>
+    <tr>
+      <th>246</th>
+      <td>Ravenswood Bank</td>
+      <td>Chicago</td>
+      <td>IL</td>
+      <td>34231</td>
+      <td>Northbrook Bank &amp; Trust Company</td>
+      <td>August 6, 2010</td>
+      <td>August 22, 2012</td>
+    </tr>
+    <tr>
+      <th>247</th>
+      <td>LibertyBank</td>
+      <td>Eugene</td>
+      <td>OR</td>
+      <td>31964</td>
+      <td>Home Federal Bank</td>
+      <td>July 30, 2010</td>
+      <td>August 22, 2012</td>
+    </tr>
+    <tr>
+      <th>248</th>
+      <td>The Cowlitz Bank</td>
+      <td>Longview</td>
+      <td>WA</td>
+      <td>22643</td>
+      <td>Heritage Bank</td>
+      <td>July 30, 2010</td>
+      <td>August 22, 2012</td>
+    </tr>
+    <tr>
+      <th>249</th>
+      <td>Coastal Community Bank</td>
+      <td>Panama City Beach</td>
+      <td>FL</td>
+      <td>9619</td>
+      <td>Centennial Bank</td>
+      <td>July 30, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>250</th>
+      <td>Bayside Savings Bank</td>
+      <td>Port Saint Joe</td>
+      <td>FL</td>
+      <td>57669</td>
+      <td>Centennial Bank</td>
+      <td>July 30, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>251</th>
+      <td>Northwest Bank &amp; Trust</td>
+      <td>Acworth</td>
+      <td>GA</td>
+      <td>57658</td>
+      <td>State Bank and Trust Company</td>
+      <td>July 30, 2010</td>
+      <td>September 21, 2015</td>
+    </tr>
+    <tr>
+      <th>252</th>
+      <td>Home Valley Bank</td>
+      <td>Cave Junction</td>
+      <td>OR</td>
+      <td>23181</td>
+      <td>South Valley Bank &amp; Trust</td>
+      <td>July 23, 2010</td>
+      <td>September 12, 2012</td>
+    </tr>
+    <tr>
+      <th>253</th>
+      <td>SouthwestUSA Bank</td>
+      <td>Las Vegas</td>
+      <td>NV</td>
+      <td>35434</td>
+      <td>Plaza Bank</td>
+      <td>July 23, 2010</td>
+      <td>August 22, 2012</td>
+    </tr>
+    <tr>
+      <th>254</th>
+      <td>Community Security Bank</td>
+      <td>New Prague</td>
+      <td>MN</td>
+      <td>34486</td>
+      <td>Roundbank</td>
+      <td>July 23, 2010</td>
+      <td>February 4, 2016</td>
+    </tr>
+    <tr>
+      <th>255</th>
+      <td>Thunder Bank</td>
+      <td>Sylvan Grove</td>
+      <td>KS</td>
+      <td>10506</td>
+      <td>The Bennington State Bank</td>
+      <td>July 23, 2010</td>
+      <td>September 13, 2012</td>
+    </tr>
+    <tr>
+      <th>256</th>
+      <td>Williamsburg First National Bank</td>
+      <td>Kingstree</td>
+      <td>SC</td>
+      <td>17837</td>
+      <td>First Citizens Bank and Trust Company, Inc.</td>
+      <td>July 23, 2010</td>
+      <td>October 20, 2016</td>
+    </tr>
+    <tr>
+      <th>257</th>
+      <td>Crescent Bank and Trust Company</td>
+      <td>Jasper</td>
+      <td>GA</td>
+      <td>27559</td>
+      <td>Renasant Bank</td>
+      <td>July 23, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>258</th>
+      <td>Sterling Bank</td>
+      <td>Lantana</td>
+      <td>FL</td>
+      <td>32536</td>
+      <td>IBERIABANK</td>
+      <td>July 23, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>259</th>
+      <td>Mainstreet Savings Bank, FSB</td>
+      <td>Hastings</td>
+      <td>MI</td>
+      <td>28136</td>
+      <td>Commercial Bank</td>
+      <td>July 16, 2010</td>
+      <td>September 13, 2012</td>
+    </tr>
+    <tr>
+      <th>260</th>
+      <td>Olde Cypress Community Bank</td>
+      <td>Clewiston</td>
+      <td>FL</td>
+      <td>28864</td>
+      <td>CenterState Bank of Florida, N.A.</td>
+      <td>July 16, 2010</td>
+      <td>July 11, 2016</td>
+    </tr>
+    <tr>
+      <th>261</th>
+      <td>Turnberry Bank</td>
+      <td>Aventura</td>
+      <td>FL</td>
+      <td>32280</td>
+      <td>NAFH National Bank</td>
+      <td>July 16, 2010</td>
+      <td>September 12, 2016</td>
+    </tr>
+    <tr>
+      <th>262</th>
+      <td>Metro Bank of Dade County</td>
+      <td>Miami</td>
+      <td>FL</td>
+      <td>25172</td>
+      <td>NAFH National Bank</td>
+      <td>July 16, 2010</td>
+      <td>August 8, 2016</td>
+    </tr>
+    <tr>
+      <th>263</th>
+      <td>First National Bank of the South</td>
+      <td>Spartanburg</td>
+      <td>SC</td>
+      <td>35383</td>
+      <td>NAFH National Bank</td>
+      <td>July 16, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>264</th>
+      <td>Woodlands Bank</td>
+      <td>Bluffton</td>
+      <td>SC</td>
+      <td>32571</td>
+      <td>Bank of the Ozarks</td>
+      <td>July 16, 2010</td>
+      <td>September 21, 2015</td>
+    </tr>
+    <tr>
+      <th>265</th>
+      <td>Home National Bank</td>
+      <td>Blackwell</td>
+      <td>OK</td>
+      <td>11636</td>
+      <td>RCB Bank</td>
+      <td>July 9, 2010</td>
+      <td>December 10, 2012</td>
+    </tr>
+    <tr>
+      <th>266</th>
+      <td>USA Bank</td>
+      <td>Port Chester</td>
+      <td>NY</td>
+      <td>58072</td>
+      <td>New Century Bank</td>
+      <td>July 9, 2010</td>
+      <td>September 14, 2012</td>
+    </tr>
+    <tr>
+      <th>267</th>
+      <td>Ideal Federal Savings Bank</td>
+      <td>Baltimore</td>
+      <td>MD</td>
+      <td>32456</td>
+      <td>No Acquirer</td>
+      <td>July 9, 2010</td>
+      <td>May 8, 2015</td>
+    </tr>
+    <tr>
+      <th>268</th>
+      <td>Bay National Bank</td>
+      <td>Baltimore</td>
+      <td>MD</td>
+      <td>35462</td>
+      <td>Bay Bank, FSB</td>
+      <td>July 9, 2010</td>
+      <td>January 15, 2013</td>
+    </tr>
+    <tr>
+      <th>269</th>
+      <td>High Desert State Bank</td>
+      <td>Albuquerque</td>
+      <td>NM</td>
+      <td>35279</td>
+      <td>First American Bank</td>
+      <td>June 25, 2010</td>
+      <td>September 14, 2012</td>
+    </tr>
+    <tr>
+      <th>270</th>
+      <td>First National Bank</td>
+      <td>Savannah</td>
+      <td>GA</td>
+      <td>34152</td>
+      <td>The Savannah Bank, N.A.</td>
+      <td>June 25, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>271</th>
+      <td>Peninsula Bank</td>
+      <td>Englewood</td>
+      <td>FL</td>
+      <td>26563</td>
+      <td>Premier American Bank, N.A.</td>
+      <td>June 25, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>272</th>
+      <td>Nevada Security Bank</td>
+      <td>Reno</td>
+      <td>NV</td>
+      <td>57110</td>
+      <td>Umpqua Bank</td>
+      <td>June 18, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>273</th>
+      <td>Washington First International Bank</td>
+      <td>Seattle</td>
+      <td>WA</td>
+      <td>32955</td>
+      <td>East West Bank</td>
+      <td>June 11, 2010</td>
+      <td>September 14, 2012</td>
+    </tr>
+    <tr>
+      <th>274</th>
+      <td>TierOne Bank</td>
+      <td>Lincoln</td>
+      <td>NE</td>
+      <td>29341</td>
+      <td>Great Western Bank</td>
+      <td>June 4, 2010</td>
+      <td>September 14, 2012</td>
+    </tr>
+    <tr>
+      <th>275</th>
+      <td>Arcola Homestead Savings Bank</td>
+      <td>Arcola</td>
+      <td>IL</td>
+      <td>31813</td>
+      <td>No Acquirer</td>
+      <td>June 4, 2010</td>
+      <td>May 8, 2015</td>
+    </tr>
+    <tr>
+      <th>276</th>
+      <td>First National Bank</td>
+      <td>Rosedale</td>
+      <td>MS</td>
+      <td>15814</td>
+      <td>The Jefferson Bank</td>
+      <td>June 4, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>277</th>
+      <td>Sun West Bank</td>
+      <td>Las Vegas</td>
+      <td>NV</td>
+      <td>34785</td>
+      <td>City National Bank</td>
+      <td>May 28, 2010</td>
+      <td>September 14, 2012</td>
+    </tr>
+    <tr>
+      <th>278</th>
+      <td>Granite Community Bank, NA</td>
+      <td>Granite Bay</td>
+      <td>CA</td>
+      <td>57315</td>
+      <td>Tri Counties Bank</td>
+      <td>May 28, 2010</td>
+      <td>September 14, 2012</td>
+    </tr>
+    <tr>
+      <th>279</th>
+      <td>Bank of Florida - Tampa</td>
+      <td>Tampa</td>
+      <td>FL</td>
+      <td>57814</td>
+      <td>EverBank</td>
+      <td>May 28, 2010</td>
+      <td>August 8, 2016</td>
+    </tr>
+    <tr>
+      <th>280</th>
+      <td>Bank of Florida - Southwest</td>
+      <td>Naples</td>
+      <td>FL</td>
+      <td>35106</td>
+      <td>EverBank</td>
+      <td>May 28, 2010</td>
+      <td>August 8, 2016</td>
+    </tr>
+    <tr>
+      <th>281</th>
+      <td>Bank of Florida - Southeast</td>
+      <td>Fort Lauderdale</td>
+      <td>FL</td>
+      <td>57360</td>
+      <td>EverBank</td>
+      <td>May 28, 2010</td>
+      <td>August 8, 2016</td>
+    </tr>
+    <tr>
+      <th>282</th>
+      <td>Pinehurst Bank</td>
+      <td>Saint Paul</td>
+      <td>MN</td>
+      <td>57735</td>
+      <td>Coulee Bank</td>
+      <td>May 21, 2010</td>
+      <td>October 26, 2012</td>
+    </tr>
+    <tr>
+      <th>283</th>
+      <td>Midwest Bank and Trust Company</td>
+      <td>Elmwood Park</td>
+      <td>IL</td>
+      <td>18117</td>
+      <td>FirstMerit Bank, N.A.</td>
+      <td>May 14, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>284</th>
+      <td>Southwest Community Bank</td>
+      <td>Springfield</td>
+      <td>MO</td>
+      <td>34255</td>
+      <td>Simmons First National Bank</td>
+      <td>May 14, 2010</td>
+      <td>February 4, 2016</td>
+    </tr>
+    <tr>
+      <th>285</th>
+      <td>New Liberty Bank</td>
+      <td>Plymouth</td>
+      <td>MI</td>
+      <td>35586</td>
+      <td>Bank of Ann Arbor</td>
+      <td>May 14, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>286</th>
+      <td>Satilla Community Bank</td>
+      <td>Saint Marys</td>
+      <td>GA</td>
+      <td>35114</td>
+      <td>Ameris Bank</td>
+      <td>May 14, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>287</th>
+      <td>1st Pacific Bank of California</td>
+      <td>San Diego</td>
+      <td>CA</td>
+      <td>35517</td>
+      <td>City National Bank</td>
+      <td>May 7, 2010</td>
+      <td>December 13, 2012</td>
+    </tr>
+    <tr>
+      <th>288</th>
+      <td>Towne Bank of Arizona</td>
+      <td>Mesa</td>
+      <td>AZ</td>
+      <td>57697</td>
+      <td>Commerce Bank of Arizona</td>
+      <td>May 7, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>289</th>
+      <td>Access Bank</td>
+      <td>Champlin</td>
+      <td>MN</td>
+      <td>16476</td>
+      <td>PrinsBank</td>
+      <td>May 7, 2010</td>
+      <td>February 5, 2015</td>
+    </tr>
+    <tr>
+      <th>290</th>
+      <td>The Bank of Bonifay</td>
+      <td>Bonifay</td>
+      <td>FL</td>
+      <td>14246</td>
+      <td>First Federal Bank of Florida</td>
+      <td>May 7, 2010</td>
+      <td>November 5, 2012</td>
+    </tr>
+    <tr>
+      <th>291</th>
+      <td>Frontier Bank</td>
+      <td>Everett</td>
+      <td>WA</td>
+      <td>22710</td>
+      <td>Union Bank, N.A.</td>
+      <td>April 30, 2010</td>
+      <td>January 15, 2013</td>
+    </tr>
+    <tr>
+      <th>292</th>
+      <td>BC National Banks</td>
+      <td>Butler</td>
+      <td>MO</td>
+      <td>17792</td>
+      <td>Community First Bank</td>
+      <td>April 30, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>293</th>
+      <td>Champion Bank</td>
+      <td>Creve Coeur</td>
+      <td>MO</td>
+      <td>58362</td>
+      <td>BankLiberty</td>
+      <td>April 30, 2010</td>
+      <td>June 6, 2016</td>
+    </tr>
+    <tr>
+      <th>294</th>
+      <td>CF Bancorp</td>
+      <td>Port Huron</td>
+      <td>MI</td>
+      <td>30005</td>
+      <td>First Michigan Bank</td>
+      <td>April 30, 2010</td>
+      <td>April 13, 2016</td>
+    </tr>
+    <tr>
+      <th>295</th>
+      <td>Westernbank Puerto Rico  En Espanol</td>
+      <td>Mayaguez</td>
+      <td>PR</td>
+      <td>31027</td>
+      <td>Banco Popular de Puerto Rico</td>
+      <td>April 30, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>296</th>
+      <td>R-G Premier Bank of Puerto Rico  En Espanol</td>
+      <td>Hato Rey</td>
+      <td>PR</td>
+      <td>32185</td>
+      <td>Scotiabank de Puerto Rico</td>
+      <td>April 30, 2010</td>
+      <td>August 5, 2015</td>
+    </tr>
+    <tr>
+      <th>297</th>
+      <td>Eurobank  En Espanol</td>
+      <td>San Juan</td>
+      <td>PR</td>
+      <td>27150</td>
+      <td>Oriental Bank and Trust</td>
+      <td>April 30, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>298</th>
+      <td>Wheatland Bank</td>
+      <td>Naperville</td>
+      <td>IL</td>
+      <td>58429</td>
+      <td>Wheaton Bank &amp; Trust</td>
+      <td>April 23, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>299</th>
+      <td>Peotone Bank and Trust Company</td>
+      <td>Peotone</td>
+      <td>IL</td>
+      <td>10888</td>
+      <td>First Midwest Bank</td>
+      <td>April 23, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>300</th>
+      <td>Lincoln Park Savings Bank</td>
+      <td>Chicago</td>
+      <td>IL</td>
+      <td>30600</td>
+      <td>Northbrook Bank &amp; Trust Company</td>
+      <td>April 23, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>301</th>
+      <td>New Century Bank</td>
+      <td>Chicago</td>
+      <td>IL</td>
+      <td>34821</td>
+      <td>MB Financial Bank, N.A.</td>
+      <td>April 23, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>302</th>
+      <td>Citizens Bank and Trust Company of Chicago</td>
+      <td>Chicago</td>
+      <td>IL</td>
+      <td>34658</td>
+      <td>Republic Bank of Chicago</td>
+      <td>April 23, 2010</td>
+      <td>June 5, 2014</td>
+    </tr>
+    <tr>
+      <th>303</th>
+      <td>Broadway Bank</td>
+      <td>Chicago</td>
+      <td>IL</td>
+      <td>22853</td>
+      <td>MB Financial Bank, N.A.</td>
+      <td>April 23, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>304</th>
+      <td>Amcore Bank, National Association</td>
+      <td>Rockford</td>
+      <td>IL</td>
+      <td>3735</td>
+      <td>Harris N.A.</td>
+      <td>April 23, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>305</th>
+      <td>City Bank</td>
+      <td>Lynnwood</td>
+      <td>WA</td>
+      <td>21521</td>
+      <td>Whidbey Island Bank</td>
+      <td>April 16, 2010</td>
+      <td>September 14, 2012</td>
+    </tr>
+    <tr>
+      <th>306</th>
+      <td>Tamalpais Bank</td>
+      <td>San Rafael</td>
+      <td>CA</td>
+      <td>33493</td>
+      <td>Union Bank, N.A.</td>
+      <td>April 16, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>307</th>
+      <td>Innovative Bank</td>
+      <td>Oakland</td>
+      <td>CA</td>
+      <td>23876</td>
+      <td>Center Bank</td>
+      <td>April 16, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>308</th>
+      <td>Butler Bank</td>
+      <td>Lowell</td>
+      <td>MA</td>
+      <td>26619</td>
+      <td>People's United Bank</td>
+      <td>April 16, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>309</th>
+      <td>Riverside National Bank of Florida</td>
+      <td>Fort Pierce</td>
+      <td>FL</td>
+      <td>24067</td>
+      <td>TD Bank, N.A.</td>
+      <td>April 16, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>310</th>
+      <td>AmericanFirst Bank</td>
+      <td>Clermont</td>
+      <td>FL</td>
+      <td>57724</td>
+      <td>TD Bank, N.A.</td>
+      <td>April 16, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>311</th>
+      <td>First Federal Bank of North Florida</td>
+      <td>Palatka</td>
+      <td>FL</td>
+      <td>28886</td>
+      <td>TD Bank, N.A.</td>
+      <td>April 16, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>312</th>
+      <td>Lakeside Community Bank</td>
+      <td>Sterling Heights</td>
+      <td>MI</td>
+      <td>34878</td>
+      <td>No Acquirer</td>
+      <td>April 16, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>313</th>
+      <td>Beach First National Bank</td>
+      <td>Myrtle Beach</td>
+      <td>SC</td>
+      <td>34242</td>
+      <td>Bank of North Carolina</td>
+      <td>April 9, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>314</th>
+      <td>Desert Hills Bank</td>
+      <td>Phoenix</td>
+      <td>AZ</td>
+      <td>57060</td>
+      <td>New York Community Bank</td>
+      <td>March 26, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>315</th>
+      <td>Unity National Bank</td>
+      <td>Cartersville</td>
+      <td>GA</td>
+      <td>34678</td>
+      <td>Bank of the Ozarks</td>
+      <td>March 26, 2010</td>
+      <td>September 21, 2015</td>
+    </tr>
+    <tr>
+      <th>316</th>
+      <td>Key West Bank</td>
+      <td>Key West</td>
+      <td>FL</td>
+      <td>34684</td>
+      <td>Centennial Bank</td>
+      <td>March 26, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>317</th>
+      <td>McIntosh Commercial Bank</td>
+      <td>Carrollton</td>
+      <td>GA</td>
+      <td>57399</td>
+      <td>CharterBank</td>
+      <td>March 26, 2010</td>
+      <td>July 11, 2016</td>
+    </tr>
+    <tr>
+      <th>318</th>
+      <td>State Bank of Aurora</td>
+      <td>Aurora</td>
+      <td>MN</td>
+      <td>8221</td>
+      <td>Northern State Bank</td>
+      <td>March 19, 2010</td>
+      <td>August 8, 2016</td>
+    </tr>
+    <tr>
+      <th>319</th>
+      <td>First Lowndes Bank</td>
+      <td>Fort Deposit</td>
+      <td>AL</td>
+      <td>24957</td>
+      <td>First Citizens Bank</td>
+      <td>March 19, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>320</th>
+      <td>Bank of Hiawassee</td>
+      <td>Hiawassee</td>
+      <td>GA</td>
+      <td>10054</td>
+      <td>Citizens South Bank</td>
+      <td>March 19, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>321</th>
+      <td>Appalachian Community Bank</td>
+      <td>Ellijay</td>
+      <td>GA</td>
+      <td>33989</td>
+      <td>Community &amp; Southern Bank</td>
+      <td>March 19, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>322</th>
+      <td>Advanta Bank Corp.</td>
+      <td>Draper</td>
+      <td>UT</td>
+      <td>33535</td>
+      <td>No Acquirer</td>
+      <td>March 19, 2010</td>
+      <td>March 31, 2016</td>
+    </tr>
+    <tr>
+      <th>323</th>
+      <td>Century Security Bank</td>
+      <td>Duluth</td>
+      <td>GA</td>
+      <td>58104</td>
+      <td>Bank of Upson</td>
+      <td>March 19, 2010</td>
+      <td>April 13, 2016</td>
+    </tr>
+    <tr>
+      <th>324</th>
+      <td>American National Bank</td>
+      <td>Parma</td>
+      <td>OH</td>
+      <td>18806</td>
+      <td>The National Bank and Trust Company</td>
+      <td>March 19, 2010</td>
+      <td>September 21, 2015</td>
+    </tr>
+    <tr>
+      <th>325</th>
+      <td>Statewide Bank</td>
+      <td>Covington</td>
+      <td>LA</td>
+      <td>29561</td>
+      <td>Home Bank</td>
+      <td>March 12, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>326</th>
+      <td>Old Southern Bank</td>
+      <td>Orlando</td>
+      <td>FL</td>
+      <td>58182</td>
+      <td>Centennial Bank</td>
+      <td>March 12, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>327</th>
+      <td>The Park Avenue Bank</td>
+      <td>New York</td>
+      <td>NY</td>
+      <td>27096</td>
+      <td>Valley National Bank</td>
+      <td>March 12, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>328</th>
+      <td>LibertyPointe Bank</td>
+      <td>New York</td>
+      <td>NY</td>
+      <td>58071</td>
+      <td>Valley National Bank</td>
+      <td>March 11, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>329</th>
+      <td>Centennial Bank</td>
+      <td>Ogden</td>
+      <td>UT</td>
+      <td>34430</td>
+      <td>No Acquirer</td>
+      <td>March 5, 2010</td>
+      <td>September 14, 2012</td>
+    </tr>
+    <tr>
+      <th>330</th>
+      <td>Waterfield Bank</td>
+      <td>Germantown</td>
+      <td>MD</td>
+      <td>34976</td>
+      <td>No Acquirer</td>
+      <td>March 5, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>331</th>
+      <td>Bank of Illinois</td>
+      <td>Normal</td>
+      <td>IL</td>
+      <td>9268</td>
+      <td>Heartland Bank and Trust Company</td>
+      <td>March 5, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>332</th>
+      <td>Sun American Bank</td>
+      <td>Boca Raton</td>
+      <td>FL</td>
+      <td>27126</td>
+      <td>First-Citizens Bank &amp; Trust Company</td>
+      <td>March 5, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>333</th>
+      <td>Rainier Pacific Bank</td>
+      <td>Tacoma</td>
+      <td>WA</td>
+      <td>38129</td>
+      <td>Umpqua Bank</td>
+      <td>February 26, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>334</th>
+      <td>Carson River Community Bank</td>
+      <td>Carson City</td>
+      <td>NV</td>
+      <td>58352</td>
+      <td>Heritage Bank of Nevada</td>
+      <td>February 26, 2010</td>
+      <td>January 15, 2013</td>
+    </tr>
+    <tr>
+      <th>335</th>
+      <td>La Jolla Bank, FSB</td>
+      <td>La Jolla</td>
+      <td>CA</td>
+      <td>32423</td>
+      <td>OneWest Bank, FSB</td>
+      <td>February 19, 2010</td>
+      <td>August 24, 2012</td>
+    </tr>
+    <tr>
+      <th>336</th>
+      <td>George Washington Savings Bank</td>
+      <td>Orland Park</td>
+      <td>IL</td>
+      <td>29952</td>
+      <td>FirstMerit Bank, N.A.</td>
+      <td>February 19, 2010</td>
+      <td>August 24, 2012</td>
+    </tr>
+    <tr>
+      <th>337</th>
+      <td>The La Coste National Bank</td>
+      <td>La Coste</td>
+      <td>TX</td>
+      <td>3287</td>
+      <td>Community National Bank</td>
+      <td>February 19, 2010</td>
+      <td>August 19, 2014</td>
+    </tr>
+    <tr>
+      <th>338</th>
+      <td>Marco Community Bank</td>
+      <td>Marco Island</td>
+      <td>FL</td>
+      <td>57586</td>
+      <td>Mutual of Omaha Bank</td>
+      <td>February 19, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>339</th>
+      <td>1st American State Bank of Minnesota</td>
+      <td>Hancock</td>
+      <td>MN</td>
+      <td>15448</td>
+      <td>Community Development Bank, FSB</td>
+      <td>February 5, 2010</td>
+      <td>November 1, 2013</td>
+    </tr>
+    <tr>
+      <th>340</th>
+      <td>American Marine Bank</td>
+      <td>Bainbridge Island</td>
+      <td>WA</td>
+      <td>16730</td>
+      <td>Columbia State Bank</td>
+      <td>January 29, 2010</td>
+      <td>August 24, 2012</td>
+    </tr>
+    <tr>
+      <th>341</th>
+      <td>First Regional Bank</td>
+      <td>Los Angeles</td>
+      <td>CA</td>
+      <td>23011</td>
+      <td>First-Citizens Bank &amp; Trust Company</td>
+      <td>January 29, 2010</td>
+      <td>March 4, 2016</td>
+    </tr>
+    <tr>
+      <th>342</th>
+      <td>Community Bank and Trust</td>
+      <td>Cornelia</td>
+      <td>GA</td>
+      <td>5702</td>
+      <td>SCBT National Association</td>
+      <td>January 29, 2010</td>
+      <td>April 13, 2016</td>
+    </tr>
+    <tr>
+      <th>343</th>
+      <td>Marshall Bank, N.A.</td>
+      <td>Hallock</td>
+      <td>MN</td>
+      <td>16133</td>
+      <td>United Valley Bank</td>
+      <td>January 29, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>344</th>
+      <td>Florida Community Bank</td>
+      <td>Immokalee</td>
+      <td>FL</td>
+      <td>5672</td>
+      <td>Premier American Bank, N.A.</td>
+      <td>January 29, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>345</th>
+      <td>First National Bank of Georgia</td>
+      <td>Carrollton</td>
+      <td>GA</td>
+      <td>16480</td>
+      <td>Community &amp; Southern Bank</td>
+      <td>January 29, 2010</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>346</th>
+      <td>Columbia River Bank</td>
+      <td>The Dalles</td>
+      <td>OR</td>
+      <td>22469</td>
+      <td>Columbia State Bank</td>
+      <td>January 22, 2010</td>
+      <td>September 14, 2012</td>
+    </tr>
+    <tr>
+      <th>347</th>
+      <td>Evergreen Bank</td>
+      <td>Seattle</td>
+      <td>WA</td>
+      <td>20501</td>
+      <td>Umpqua Bank</td>
+      <td>January 22, 2010</td>
+      <td>January 15, 2013</td>
+    </tr>
+    <tr>
+      <th>348</th>
+      <td>Charter Bank</td>
+      <td>Santa Fe</td>
+      <td>NM</td>
+      <td>32498</td>
+      <td>Charter Bank</td>
+      <td>January 22, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>349</th>
+      <td>Bank of Leeton</td>
+      <td>Leeton</td>
+      <td>MO</td>
+      <td>8265</td>
+      <td>Sunflower Bank, N.A.</td>
+      <td>January 22, 2010</td>
+      <td>January 15, 2013</td>
+    </tr>
+    <tr>
+      <th>350</th>
+      <td>Premier American Bank</td>
+      <td>Miami</td>
+      <td>FL</td>
+      <td>57147</td>
+      <td>Premier American Bank, N.A.</td>
+      <td>January 22, 2010</td>
+      <td>September 21, 2015</td>
+    </tr>
+    <tr>
+      <th>351</th>
+      <td>Barnes Banking Company</td>
+      <td>Kaysville</td>
+      <td>UT</td>
+      <td>1252</td>
+      <td>No Acquirer</td>
+      <td>January 15, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>352</th>
+      <td>St. Stephen State Bank</td>
+      <td>St. Stephen</td>
+      <td>MN</td>
+      <td>17522</td>
+      <td>First State Bank of St. Joseph</td>
+      <td>January 15, 2010</td>
+      <td>August 8, 2016</td>
+    </tr>
+    <tr>
+      <th>353</th>
+      <td>Town Community Bank &amp; Trust</td>
+      <td>Antioch</td>
+      <td>IL</td>
+      <td>34705</td>
+      <td>First American Bank</td>
+      <td>January 15, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>354</th>
+      <td>Horizon Bank</td>
+      <td>Bellingham</td>
+      <td>WA</td>
+      <td>22977</td>
+      <td>Washington Federal Savings and Loan Association</td>
+      <td>January 8, 2010</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>355</th>
+      <td>First Federal Bank of California, F.S.B.</td>
+      <td>Santa Monica</td>
+      <td>CA</td>
+      <td>28536</td>
+      <td>OneWest Bank, FSB</td>
+      <td>December 18, 2009</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>356</th>
+      <td>Imperial Capital Bank</td>
+      <td>La Jolla</td>
+      <td>CA</td>
+      <td>26348</td>
+      <td>City National Bank</td>
+      <td>December 18, 2009</td>
+      <td>September 5, 2012</td>
+    </tr>
+    <tr>
+      <th>357</th>
+      <td>Independent Bankers' Bank</td>
+      <td>Springfield</td>
+      <td>IL</td>
+      <td>26820</td>
+      <td>The Independent BankersBank (TIB)</td>
+      <td>December 18, 2009</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>358</th>
+      <td>New South Federal Savings Bank</td>
+      <td>Irondale</td>
+      <td>AL</td>
+      <td>32276</td>
+      <td>Beal Bank</td>
+      <td>December 18, 2009</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>359</th>
+      <td>Citizens State Bank</td>
+      <td>New Baltimore</td>
+      <td>MI</td>
+      <td>1006</td>
+      <td>No Acquirer</td>
+      <td>December 18, 2009</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>360</th>
+      <td>Peoples First Community Bank</td>
+      <td>Panama City</td>
+      <td>FL</td>
+      <td>32167</td>
+      <td>Hancock Bank</td>
+      <td>December 18, 2009</td>
+      <td>November 5, 2012</td>
+    </tr>
+    <tr>
+      <th>361</th>
+      <td>RockBridge Commercial Bank</td>
+      <td>Atlanta</td>
+      <td>GA</td>
+      <td>58315</td>
+      <td>No Acquirer</td>
+      <td>December 18, 2009</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>362</th>
+      <td>SolutionsBank</td>
+      <td>Overland Park</td>
+      <td>KS</td>
+      <td>4731</td>
+      <td>Arvest Bank</td>
+      <td>December 11, 2009</td>
+      <td>July 19, 2016</td>
+    </tr>
+    <tr>
+      <th>363</th>
+      <td>Valley Capital Bank, N.A.</td>
+      <td>Mesa</td>
+      <td>AZ</td>
+      <td>58399</td>
+      <td>Enterprise Bank &amp; Trust</td>
+      <td>December 11, 2009</td>
+      <td>October 20, 2016</td>
+    </tr>
+    <tr>
+      <th>364</th>
+      <td>Republic Federal Bank, N.A.</td>
+      <td>Miami</td>
+      <td>FL</td>
+      <td>22846</td>
+      <td>1st United Bank</td>
+      <td>December 11, 2009</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>365</th>
+      <td>Greater Atlantic Bank</td>
+      <td>Reston</td>
+      <td>VA</td>
+      <td>32583</td>
+      <td>Sonabank</td>
+      <td>December 4, 2009</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>366</th>
+      <td>Benchmark Bank</td>
+      <td>Aurora</td>
+      <td>IL</td>
+      <td>10440</td>
+      <td>MB Financial Bank, N.A.</td>
+      <td>December 4, 2009</td>
+      <td>August 23, 2012</td>
+    </tr>
+    <tr>
+      <th>367</th>
+      <td>AmTrust Bank</td>
+      <td>Cleveland</td>
+      <td>OH</td>
+      <td>29776</td>
+      <td>New York Community Bank</td>
+      <td>December 4, 2009</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>368</th>
+      <td>The Tattnall Bank</td>
+      <td>Reidsville</td>
+      <td>GA</td>
+      <td>12080</td>
+      <td>Heritage Bank of the South</td>
+      <td>December 4, 2009</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>369</th>
+      <td>First Security National Bank</td>
+      <td>Norcross</td>
+      <td>GA</td>
+      <td>26290</td>
+      <td>State Bank and Trust Company</td>
+      <td>December 4, 2009</td>
+      <td>October 17, 2015</td>
+    </tr>
+    <tr>
+      <th>370</th>
+      <td>The Buckhead Community Bank</td>
+      <td>Atlanta</td>
+      <td>GA</td>
+      <td>34663</td>
+      <td>State Bank and Trust Company</td>
+      <td>December 4, 2009</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>371</th>
+      <td>Commerce Bank of Southwest Florida</td>
+      <td>Fort Myers</td>
+      <td>FL</td>
+      <td>58016</td>
+      <td>Central Bank</td>
+      <td>November 20, 2009</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>372</th>
+      <td>Pacific Coast National Bank</td>
+      <td>San Clemente</td>
+      <td>CA</td>
+      <td>57914</td>
+      <td>Sunwest Bank</td>
+      <td>November 13, 2009</td>
+      <td>August 22, 2012</td>
+    </tr>
+    <tr>
+      <th>373</th>
+      <td>Orion Bank</td>
+      <td>Naples</td>
+      <td>FL</td>
+      <td>22427</td>
+      <td>IBERIABANK</td>
+      <td>November 13, 2009</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>374</th>
+      <td>Century Bank, F.S.B.</td>
+      <td>Sarasota</td>
+      <td>FL</td>
+      <td>32267</td>
+      <td>IBERIABANK</td>
+      <td>November 13, 2009</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>375</th>
+      <td>United Commercial Bank</td>
+      <td>San Francisco</td>
+      <td>CA</td>
+      <td>32469</td>
+      <td>East West Bank</td>
+      <td>November 6, 2009</td>
+      <td>November 5, 2012</td>
+    </tr>
+    <tr>
+      <th>376</th>
+      <td>Gateway Bank of St. Louis</td>
+      <td>St. Louis</td>
+      <td>MO</td>
+      <td>19450</td>
+      <td>Central Bank of Kansas City</td>
+      <td>November 6, 2009</td>
+      <td>August 22, 2012</td>
+    </tr>
+    <tr>
+      <th>377</th>
+      <td>Prosperan Bank</td>
+      <td>Oakdale</td>
+      <td>MN</td>
+      <td>35074</td>
+      <td>Alerus Financial, N.A.</td>
+      <td>November 6, 2009</td>
+      <td>August 22, 2012</td>
+    </tr>
+    <tr>
+      <th>378</th>
+      <td>Home Federal Savings Bank</td>
+      <td>Detroit</td>
+      <td>MI</td>
+      <td>30329</td>
+      <td>Liberty Bank and Trust Company</td>
+      <td>November 6, 2009</td>
+      <td>August 22, 2012</td>
+    </tr>
+    <tr>
+      <th>379</th>
+      <td>United Security Bank</td>
+      <td>Sparta</td>
+      <td>GA</td>
+      <td>22286</td>
+      <td>Ameris Bank</td>
+      <td>November 6, 2009</td>
+      <td>March 21, 2014</td>
+    </tr>
+    <tr>
+      <th>380</th>
+      <td>North Houston Bank</td>
+      <td>Houston</td>
+      <td>TX</td>
+      <td>18776</td>
+      <td>U.S. Bank N.A.</td>
+      <td>October 30, 2009</td>
+      <td>August 22, 2012</td>
+    </tr>
+    <tr>
+      <th>381</th>
+      <td>Madisonville State Bank</td>
+      <td>Madisonville</td>
+      <td>TX</td>
+      <td>33782</td>
+      <td>U.S. Bank N.A.</td>
+      <td>October 30, 2009</td>
+      <td>August 22, 2012</td>
+    </tr>
+    <tr>
+      <th>382</th>
+      <td>Citizens National Bank</td>
+      <td>Teague</td>
+      <td>TX</td>
+      <td>25222</td>
+      <td>U.S. Bank N.A.</td>
+      <td>October 30, 2009</td>
+      <td>August 22, 2012</td>
+    </tr>
+    <tr>
+      <th>383</th>
+      <td>Park National Bank</td>
+      <td>Chicago</td>
+      <td>IL</td>
+      <td>11677</td>
+      <td>U.S. Bank N.A.</td>
+      <td>October 30, 2009</td>
+      <td>August 22, 2012</td>
+    </tr>
+    <tr>
+      <th>384</th>
+      <td>Pacific National Bank</td>
+      <td>San Francisco</td>
+      <td>CA</td>
+      <td>30006</td>
+      <td>U.S. Bank N.A.</td>
+      <td>October 30, 2009</td>
+      <td>August 22, 2012</td>
+    </tr>
+    <tr>
+      <th>385</th>
+      <td>California National Bank</td>
+      <td>Los Angeles</td>
+      <td>CA</td>
+      <td>34659</td>
+      <td>U.S. Bank N.A.</td>
+      <td>October 30, 2009</td>
+      <td>September 5, 2012</td>
+    </tr>
+    <tr>
+      <th>386</th>
+      <td>San Diego National Bank</td>
+      <td>San Diego</td>
+      <td>CA</td>
+      <td>23594</td>
+      <td>U.S. Bank N.A.</td>
+      <td>October 30, 2009</td>
+      <td>August 22, 2012</td>
+    </tr>
+    <tr>
+      <th>387</th>
+      <td>Community Bank of Lemont</td>
+      <td>Lemont</td>
+      <td>IL</td>
+      <td>35291</td>
+      <td>U.S. Bank N.A.</td>
+      <td>October 30, 2009</td>
+      <td>January 15, 2013</td>
+    </tr>
+    <tr>
+      <th>388</th>
+      <td>Bank USA, N.A.</td>
+      <td>Phoenix</td>
+      <td>AZ</td>
+      <td>32218</td>
+      <td>U.S. Bank N.A.</td>
+      <td>October 30, 2009</td>
+      <td>August 22, 2012</td>
+    </tr>
+    <tr>
+      <th>389</th>
+      <td>First DuPage Bank</td>
+      <td>Westmont</td>
+      <td>IL</td>
+      <td>35038</td>
+      <td>First Midwest Bank</td>
+      <td>October 23, 2009</td>
+      <td>August 22, 2012</td>
+    </tr>
+    <tr>
+      <th>390</th>
+      <td>Riverview Community Bank</td>
+      <td>Otsego</td>
+      <td>MN</td>
+      <td>57525</td>
+      <td>Central Bank</td>
+      <td>October 23, 2009</td>
+      <td>August 22, 2012</td>
+    </tr>
+    <tr>
+      <th>391</th>
+      <td>Bank of Elmwood</td>
+      <td>Racine</td>
+      <td>WI</td>
+      <td>18321</td>
+      <td>Tri City National Bank</td>
+      <td>October 23, 2009</td>
+      <td>August 22, 2012</td>
+    </tr>
+    <tr>
+      <th>392</th>
+      <td>Flagship National Bank</td>
+      <td>Bradenton</td>
+      <td>FL</td>
+      <td>35044</td>
+      <td>First Federal Bank of Florida</td>
+      <td>October 23, 2009</td>
+      <td>February 5, 2015</td>
+    </tr>
+    <tr>
+      <th>393</th>
+      <td>Hillcrest Bank Florida</td>
+      <td>Naples</td>
+      <td>FL</td>
+      <td>58336</td>
+      <td>Stonegate Bank</td>
+      <td>October 23, 2009</td>
+      <td>August 22, 2012</td>
+    </tr>
+    <tr>
+      <th>394</th>
+      <td>American United Bank</td>
+      <td>Lawrenceville</td>
+      <td>GA</td>
+      <td>57794</td>
+      <td>Ameris Bank</td>
+      <td>October 23, 2009</td>
+      <td>September 5, 2012</td>
+    </tr>
+    <tr>
+      <th>395</th>
+      <td>Partners Bank</td>
+      <td>Naples</td>
+      <td>FL</td>
+      <td>57959</td>
+      <td>Stonegate Bank</td>
+      <td>October 23, 2009</td>
+      <td>February 5, 2015</td>
+    </tr>
+    <tr>
+      <th>396</th>
+      <td>San Joaquin Bank</td>
+      <td>Bakersfield</td>
+      <td>CA</td>
+      <td>23266</td>
+      <td>Citizens Business Bank</td>
+      <td>October 16, 2009</td>
+      <td>August 22, 2012</td>
+    </tr>
+    <tr>
+      <th>397</th>
+      <td>Southern Colorado National Bank</td>
+      <td>Pueblo</td>
+      <td>CO</td>
+      <td>57263</td>
+      <td>Legacy Bank</td>
+      <td>October 2, 2009</td>
+      <td>July 19, 2016</td>
+    </tr>
+    <tr>
+      <th>398</th>
+      <td>Jennings State Bank</td>
+      <td>Spring Grove</td>
+      <td>MN</td>
+      <td>11416</td>
+      <td>Central Bank</td>
+      <td>October 2, 2009</td>
+      <td>August 21, 2012</td>
+    </tr>
+    <tr>
+      <th>399</th>
+      <td>Warren Bank</td>
+      <td>Warren</td>
+      <td>MI</td>
+      <td>34824</td>
+      <td>The Huntington National Bank</td>
+      <td>October 2, 2009</td>
+      <td>August 21, 2012</td>
+    </tr>
+    <tr>
+      <th>400</th>
+      <td>Georgian Bank</td>
+      <td>Atlanta</td>
+      <td>GA</td>
+      <td>57151</td>
+      <td>First Citizens Bank and Trust Company, Inc.</td>
+      <td>September 25, 2009</td>
+      <td>August 21, 2012</td>
+    </tr>
+    <tr>
+      <th>401</th>
+      <td>Irwin Union Bank, F.S.B.</td>
+      <td>Louisville</td>
+      <td>KY</td>
+      <td>57068</td>
+      <td>First Financial Bank, N.A.</td>
+      <td>September 18, 2009</td>
+      <td>September 5, 2012</td>
+    </tr>
+    <tr>
+      <th>402</th>
+      <td>Irwin Union Bank and Trust Company</td>
+      <td>Columbus</td>
+      <td>IN</td>
+      <td>10100</td>
+      <td>First Financial Bank, N.A.</td>
+      <td>September 18, 2009</td>
+      <td>August 21, 2012</td>
+    </tr>
+    <tr>
+      <th>403</th>
+      <td>Venture Bank</td>
+      <td>Lacey</td>
+      <td>WA</td>
+      <td>22868</td>
+      <td>First-Citizens Bank &amp; Trust Company</td>
+      <td>September 11, 2009</td>
+      <td>August 21, 2012</td>
+    </tr>
+    <tr>
+      <th>404</th>
+      <td>Brickwell Community Bank</td>
+      <td>Woodbury</td>
+      <td>MN</td>
+      <td>57736</td>
+      <td>CorTrust Bank N.A.</td>
+      <td>September 11, 2009</td>
+      <td>October 20, 2016</td>
+    </tr>
+    <tr>
+      <th>405</th>
+      <td>Corus Bank, N.A.</td>
+      <td>Chicago</td>
+      <td>IL</td>
+      <td>13693</td>
+      <td>MB Financial Bank, N.A.</td>
+      <td>September 11, 2009</td>
+      <td>August 21, 2012</td>
+    </tr>
+    <tr>
+      <th>406</th>
+      <td>First State Bank</td>
+      <td>Flagstaff</td>
+      <td>AZ</td>
+      <td>34875</td>
+      <td>Sunwest Bank</td>
+      <td>September 4, 2009</td>
+      <td>February 5, 2015</td>
+    </tr>
+    <tr>
+      <th>407</th>
+      <td>Platinum Community Bank</td>
+      <td>Rolling Meadows</td>
+      <td>IL</td>
+      <td>35030</td>
+      <td>No Acquirer</td>
+      <td>September 4, 2009</td>
+      <td>August 21, 2012</td>
+    </tr>
+    <tr>
+      <th>408</th>
+      <td>Vantus Bank</td>
+      <td>Sioux City</td>
+      <td>IA</td>
+      <td>27732</td>
+      <td>Great Southern Bank</td>
+      <td>September 4, 2009</td>
+      <td>August 21, 2012</td>
+    </tr>
+    <tr>
+      <th>409</th>
+      <td>InBank</td>
+      <td>Oak Forest</td>
+      <td>IL</td>
+      <td>20203</td>
+      <td>MB Financial Bank, N.A.</td>
+      <td>September 4, 2009</td>
+      <td>October 17, 2015</td>
+    </tr>
+    <tr>
+      <th>410</th>
+      <td>First Bank of Kansas City</td>
+      <td>Kansas City</td>
+      <td>MO</td>
+      <td>25231</td>
+      <td>Great American Bank</td>
+      <td>September 4, 2009</td>
+      <td>August 21, 2012</td>
+    </tr>
+    <tr>
+      <th>411</th>
+      <td>Affinity Bank</td>
+      <td>Ventura</td>
+      <td>CA</td>
+      <td>27197</td>
+      <td>Pacific Western Bank</td>
+      <td>August 28, 2009</td>
+      <td>August 21, 2012</td>
+    </tr>
+    <tr>
+      <th>412</th>
+      <td>Mainstreet Bank</td>
+      <td>Forest Lake</td>
+      <td>MN</td>
+      <td>1909</td>
+      <td>Central Bank</td>
+      <td>August 28, 2009</td>
+      <td>August 21, 2012</td>
+    </tr>
+    <tr>
+      <th>413</th>
+      <td>Bradford Bank</td>
+      <td>Baltimore</td>
+      <td>MD</td>
+      <td>28312</td>
+      <td>Manufacturers and Traders Trust Company (M&amp;T Bank)</td>
+      <td>August 28, 2009</td>
+      <td>January 15, 2013</td>
+    </tr>
+    <tr>
+      <th>414</th>
+      <td>Guaranty Bank</td>
+      <td>Austin</td>
+      <td>TX</td>
+      <td>32618</td>
+      <td>BBVA Compass</td>
+      <td>August 21, 2009</td>
+      <td>August 21, 2012</td>
+    </tr>
+    <tr>
+      <th>415</th>
+      <td>CapitalSouth Bank</td>
+      <td>Birmingham</td>
+      <td>AL</td>
+      <td>22130</td>
+      <td>IBERIABANK</td>
+      <td>August 21, 2009</td>
+      <td>January 15, 2013</td>
+    </tr>
+    <tr>
+      <th>416</th>
+      <td>First Coweta Bank</td>
+      <td>Newnan</td>
+      <td>GA</td>
+      <td>57702</td>
+      <td>United Bank</td>
+      <td>August 21, 2009</td>
+      <td>December 7, 2015</td>
+    </tr>
+    <tr>
+      <th>417</th>
+      <td>ebank</td>
+      <td>Atlanta</td>
+      <td>GA</td>
+      <td>34682</td>
+      <td>Stearns Bank, N.A.</td>
+      <td>August 21, 2009</td>
+      <td>August 21, 2012</td>
+    </tr>
+    <tr>
+      <th>418</th>
+      <td>Community Bank of Nevada</td>
+      <td>Las Vegas</td>
+      <td>NV</td>
+      <td>34043</td>
+      <td>No Acquirer</td>
+      <td>August 14, 2009</td>
+      <td>August 21, 2012</td>
+    </tr>
+    <tr>
+      <th>419</th>
+      <td>Community Bank of Arizona</td>
+      <td>Phoenix</td>
+      <td>AZ</td>
+      <td>57645</td>
+      <td>MidFirst Bank</td>
+      <td>August 14, 2009</td>
+      <td>August 21, 2012</td>
+    </tr>
+    <tr>
+      <th>420</th>
+      <td>Union Bank, National Association</td>
+      <td>Gilbert</td>
+      <td>AZ</td>
+      <td>34485</td>
+      <td>MidFirst Bank</td>
+      <td>August 14, 2009</td>
+      <td>August 21, 2012</td>
+    </tr>
+    <tr>
+      <th>421</th>
+      <td>Colonial Bank</td>
+      <td>Montgomery</td>
+      <td>AL</td>
+      <td>9609</td>
+      <td>Branch Banking &amp; Trust Company, (BB&amp;T)</td>
+      <td>August 14, 2009</td>
+      <td>June 12, 2014</td>
+    </tr>
+    <tr>
+      <th>422</th>
+      <td>Dwelling House Savings and Loan Association</td>
+      <td>Pittsburgh</td>
+      <td>PA</td>
+      <td>31559</td>
+      <td>PNC Bank, N.A.</td>
+      <td>August 14, 2009</td>
+      <td>January 15, 2013</td>
+    </tr>
+    <tr>
+      <th>423</th>
+      <td>Community First Bank</td>
+      <td>Prineville</td>
+      <td>OR</td>
+      <td>23268</td>
+      <td>Home Federal Bank</td>
+      <td>August 7, 2009</td>
+      <td>January 15, 2013</td>
+    </tr>
+    <tr>
+      <th>424</th>
+      <td>Community National Bank of Sarasota County</td>
+      <td>Venice</td>
+      <td>FL</td>
+      <td>27183</td>
+      <td>Stearns Bank, N.A.</td>
+      <td>August 7, 2009</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>425</th>
+      <td>First State Bank</td>
+      <td>Sarasota</td>
+      <td>FL</td>
+      <td>27364</td>
+      <td>Stearns Bank, N.A.</td>
+      <td>August 7, 2009</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>426</th>
+      <td>Mutual Bank</td>
+      <td>Harvey</td>
+      <td>IL</td>
+      <td>18659</td>
+      <td>United Central Bank</td>
+      <td>July 31, 2009</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>427</th>
+      <td>First BankAmericano</td>
+      <td>Elizabeth</td>
+      <td>NJ</td>
+      <td>34270</td>
+      <td>Crown Bank</td>
+      <td>July 31, 2009</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>428</th>
+      <td>Peoples Community Bank</td>
+      <td>West Chester</td>
+      <td>OH</td>
+      <td>32288</td>
+      <td>First Financial Bank, N.A.</td>
+      <td>July 31, 2009</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>429</th>
+      <td>Integrity Bank</td>
+      <td>Jupiter</td>
+      <td>FL</td>
+      <td>57604</td>
+      <td>Stonegate Bank</td>
+      <td>July 31, 2009</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>430</th>
+      <td>First State Bank of Altus</td>
+      <td>Altus</td>
+      <td>OK</td>
+      <td>9873</td>
+      <td>Herring Bank</td>
+      <td>July 31, 2009</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>431</th>
+      <td>Security Bank of Jones County</td>
+      <td>Gray</td>
+      <td>GA</td>
+      <td>8486</td>
+      <td>State Bank and Trust Company</td>
+      <td>July 24, 2009</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>432</th>
+      <td>Security Bank of Houston County</td>
+      <td>Perry</td>
+      <td>GA</td>
+      <td>27048</td>
+      <td>State Bank and Trust Company</td>
+      <td>July 24, 2009</td>
+      <td>October 17, 2015</td>
+    </tr>
+    <tr>
+      <th>433</th>
+      <td>Security Bank of Bibb County</td>
+      <td>Macon</td>
+      <td>GA</td>
+      <td>27367</td>
+      <td>State Bank and Trust Company</td>
+      <td>July 24, 2009</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>434</th>
+      <td>Security Bank of North Metro</td>
+      <td>Woodstock</td>
+      <td>GA</td>
+      <td>57105</td>
+      <td>State Bank and Trust Company</td>
+      <td>July 24, 2009</td>
+      <td>January 6, 2016</td>
+    </tr>
+    <tr>
+      <th>435</th>
+      <td>Security Bank of North Fulton</td>
+      <td>Alpharetta</td>
+      <td>GA</td>
+      <td>57430</td>
+      <td>State Bank and Trust Company</td>
+      <td>July 24, 2009</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>436</th>
+      <td>Security Bank of Gwinnett County</td>
+      <td>Suwanee</td>
+      <td>GA</td>
+      <td>57346</td>
+      <td>State Bank and Trust Company</td>
+      <td>July 24, 2009</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>437</th>
+      <td>Waterford Village Bank</td>
+      <td>Williamsville</td>
+      <td>NY</td>
+      <td>58065</td>
+      <td>Evans Bank, N.A.</td>
+      <td>July 24, 2009</td>
+      <td>November 1, 2013</td>
+    </tr>
+    <tr>
+      <th>438</th>
+      <td>Temecula Valley Bank</td>
+      <td>Temecula</td>
+      <td>CA</td>
+      <td>34341</td>
+      <td>First-Citizens Bank &amp; Trust Company</td>
+      <td>July 17, 2009</td>
+      <td>October 20, 2016</td>
+    </tr>
+    <tr>
+      <th>439</th>
+      <td>Vineyard Bank</td>
+      <td>Rancho Cucamonga</td>
+      <td>CA</td>
+      <td>23556</td>
+      <td>California Bank &amp; Trust</td>
+      <td>July 17, 2009</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>440</th>
+      <td>BankFirst</td>
+      <td>Sioux Falls</td>
+      <td>SD</td>
+      <td>34103</td>
+      <td>Alerus Financial, N.A.</td>
+      <td>July 17, 2009</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>441</th>
+      <td>First Piedmont Bank</td>
+      <td>Winder</td>
+      <td>GA</td>
+      <td>34594</td>
+      <td>First American Bank and Trust Company</td>
+      <td>July 17, 2009</td>
+      <td>August 8, 2016</td>
+    </tr>
+    <tr>
+      <th>442</th>
+      <td>Bank of Wyoming</td>
+      <td>Thermopolis</td>
+      <td>WY</td>
+      <td>22754</td>
+      <td>Central Bank &amp; Trust</td>
+      <td>July 10, 2009</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>443</th>
+      <td>Founders Bank</td>
+      <td>Worth</td>
+      <td>IL</td>
+      <td>18390</td>
+      <td>The PrivateBank and Trust Company</td>
+      <td>July 2, 2009</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>444</th>
+      <td>Millennium State Bank of Texas</td>
+      <td>Dallas</td>
+      <td>TX</td>
+      <td>57667</td>
+      <td>State Bank of Texas</td>
+      <td>July 2, 2009</td>
+      <td>October 26, 2012</td>
+    </tr>
+    <tr>
+      <th>445</th>
+      <td>First National Bank of Danville</td>
+      <td>Danville</td>
+      <td>IL</td>
+      <td>3644</td>
+      <td>First Financial Bank, N.A.</td>
+      <td>July 2, 2009</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>446</th>
+      <td>Elizabeth State Bank</td>
+      <td>Elizabeth</td>
+      <td>IL</td>
+      <td>9262</td>
+      <td>Galena State Bank and Trust Company</td>
+      <td>July 2, 2009</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>447</th>
+      <td>Rock River Bank</td>
+      <td>Oregon</td>
+      <td>IL</td>
+      <td>15302</td>
+      <td>The Harvard State Bank</td>
+      <td>July 2, 2009</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>448</th>
+      <td>First State Bank of Winchester</td>
+      <td>Winchester</td>
+      <td>IL</td>
+      <td>11710</td>
+      <td>The First National Bank of Beardstown</td>
+      <td>July 2, 2009</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>449</th>
+      <td>John Warner Bank</td>
+      <td>Clinton</td>
+      <td>IL</td>
+      <td>12093</td>
+      <td>State Bank of Lincoln</td>
+      <td>July 2, 2009</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>450</th>
+      <td>Mirae Bank</td>
+      <td>Los Angeles</td>
+      <td>CA</td>
+      <td>57332</td>
+      <td>Wilshire State Bank</td>
+      <td>June 26, 2009</td>
+      <td>August 20, 2012</td>
+    </tr>
+    <tr>
+      <th>451</th>
+      <td>MetroPacific Bank</td>
+      <td>Irvine</td>
+      <td>CA</td>
+      <td>57893</td>
+      <td>Sunwest Bank</td>
+      <td>June 26, 2009</td>
+      <td>February 5, 2015</td>
+    </tr>
+    <tr>
+      <th>452</th>
+      <td>Horizon Bank</td>
+      <td>Pine City</td>
+      <td>MN</td>
+      <td>9744</td>
+      <td>Stearns Bank, N.A.</td>
+      <td>June 26, 2009</td>
+      <td>February 5, 2015</td>
+    </tr>
+    <tr>
+      <th>453</th>
+      <td>Neighborhood Community Bank</td>
+      <td>Newnan</td>
+      <td>GA</td>
+      <td>35285</td>
+      <td>CharterBank</td>
+      <td>June 26, 2009</td>
+      <td>December 7, 2015</td>
+    </tr>
+    <tr>
+      <th>454</th>
+      <td>Community Bank of West Georgia</td>
+      <td>Villa Rica</td>
+      <td>GA</td>
+      <td>57436</td>
+      <td>No Acquirer</td>
+      <td>June 26, 2009</td>
+      <td>August 17, 2012</td>
+    </tr>
+    <tr>
+      <th>455</th>
+      <td>First National Bank of Anthony</td>
+      <td>Anthony</td>
+      <td>KS</td>
+      <td>4614</td>
+      <td>Bank of Kansas</td>
+      <td>June 19, 2009</td>
+      <td>September 21, 2015</td>
+    </tr>
+    <tr>
+      <th>456</th>
+      <td>Cooperative Bank</td>
+      <td>Wilmington</td>
+      <td>NC</td>
+      <td>27837</td>
+      <td>First Bank</td>
+      <td>June 19, 2009</td>
+      <td>August 17, 2012</td>
+    </tr>
+    <tr>
+      <th>457</th>
+      <td>Southern Community Bank</td>
+      <td>Fayetteville</td>
+      <td>GA</td>
+      <td>35251</td>
+      <td>United Community Bank</td>
+      <td>June 19, 2009</td>
+      <td>September 21, 2015</td>
+    </tr>
+    <tr>
+      <th>458</th>
+      <td>Bank of Lincolnwood</td>
+      <td>Lincolnwood</td>
+      <td>IL</td>
+      <td>17309</td>
+      <td>Republic Bank of Chicago</td>
+      <td>June 5, 2009</td>
+      <td>August 17, 2012</td>
+    </tr>
+    <tr>
+      <th>459</th>
+      <td>Citizens National Bank</td>
+      <td>Macomb</td>
+      <td>IL</td>
+      <td>5757</td>
+      <td>Morton Community Bank</td>
+      <td>May 22, 2009</td>
+      <td>September 4, 2012</td>
+    </tr>
+    <tr>
+      <th>460</th>
+      <td>Strategic Capital Bank</td>
+      <td>Champaign</td>
+      <td>IL</td>
+      <td>35175</td>
+      <td>Midland States Bank</td>
+      <td>May 22, 2009</td>
+      <td>September 4, 2012</td>
+    </tr>
+    <tr>
+      <th>461</th>
+      <td>BankUnited, FSB</td>
+      <td>Coral Gables</td>
+      <td>FL</td>
+      <td>32247</td>
+      <td>BankUnited</td>
+      <td>May 21, 2009</td>
+      <td>August 17, 2012</td>
+    </tr>
+    <tr>
+      <th>462</th>
+      <td>Westsound Bank</td>
+      <td>Bremerton</td>
+      <td>WA</td>
+      <td>34843</td>
+      <td>Kitsap Bank</td>
+      <td>May 8, 2009</td>
+      <td>September 4, 2012</td>
+    </tr>
+    <tr>
+      <th>463</th>
+      <td>America West Bank</td>
+      <td>Layton</td>
+      <td>UT</td>
+      <td>35461</td>
+      <td>Cache Valley Bank</td>
+      <td>May 1, 2009</td>
+      <td>August 17, 2012</td>
+    </tr>
+    <tr>
+      <th>464</th>
+      <td>Citizens Community Bank</td>
+      <td>Ridgewood</td>
+      <td>NJ</td>
+      <td>57563</td>
+      <td>North Jersey Community Bank</td>
+      <td>May 1, 2009</td>
+      <td>September 4, 2012</td>
+    </tr>
+    <tr>
+      <th>465</th>
+      <td>Silverton Bank, NA</td>
+      <td>Atlanta</td>
+      <td>GA</td>
+      <td>26535</td>
+      <td>No Acquirer</td>
+      <td>May 1, 2009</td>
+      <td>August 17, 2012</td>
+    </tr>
+    <tr>
+      <th>466</th>
+      <td>First Bank of Idaho</td>
+      <td>Ketchum</td>
+      <td>ID</td>
+      <td>34396</td>
+      <td>U.S. Bank, N.A.</td>
+      <td>April 24, 2009</td>
+      <td>August 17, 2012</td>
+    </tr>
+    <tr>
+      <th>467</th>
+      <td>First Bank of Beverly Hills</td>
+      <td>Calabasas</td>
+      <td>CA</td>
+      <td>32069</td>
+      <td>No Acquirer</td>
+      <td>April 24, 2009</td>
+      <td>September 4, 2012</td>
+    </tr>
+    <tr>
+      <th>468</th>
+      <td>Michigan Heritage Bank</td>
+      <td>Farmington Hills</td>
+      <td>MI</td>
+      <td>34369</td>
+      <td>Level One Bank</td>
+      <td>April 24, 2009</td>
+      <td>August 17, 2012</td>
+    </tr>
+    <tr>
+      <th>469</th>
+      <td>American Southern Bank</td>
+      <td>Kennesaw</td>
+      <td>GA</td>
+      <td>57943</td>
+      <td>Bank of North Georgia</td>
+      <td>April 24, 2009</td>
+      <td>August 17, 2012</td>
+    </tr>
+    <tr>
+      <th>470</th>
+      <td>Great Basin Bank of Nevada</td>
+      <td>Elko</td>
+      <td>NV</td>
+      <td>33824</td>
+      <td>Nevada State Bank</td>
+      <td>April 17, 2009</td>
+      <td>September 4, 2012</td>
+    </tr>
+    <tr>
+      <th>471</th>
+      <td>American Sterling Bank</td>
+      <td>Sugar Creek</td>
+      <td>MO</td>
+      <td>8266</td>
+      <td>Metcalf Bank</td>
+      <td>April 17, 2009</td>
+      <td>August 31, 2012</td>
+    </tr>
+    <tr>
+      <th>472</th>
+      <td>New Frontier Bank</td>
+      <td>Greeley</td>
+      <td>CO</td>
+      <td>34881</td>
+      <td>No Acquirer</td>
+      <td>April 10, 2009</td>
+      <td>September 4, 2012</td>
+    </tr>
+    <tr>
+      <th>473</th>
+      <td>Cape Fear Bank</td>
+      <td>Wilmington</td>
+      <td>NC</td>
+      <td>34639</td>
+      <td>First Federal Savings and Loan Association</td>
+      <td>April 10, 2009</td>
+      <td>April 12, 2016</td>
+    </tr>
+    <tr>
+      <th>474</th>
+      <td>Omni National Bank</td>
+      <td>Atlanta</td>
+      <td>GA</td>
+      <td>22238</td>
+      <td>No Acquirer</td>
+      <td>March 27, 2009</td>
+      <td>August 17, 2012</td>
+    </tr>
+    <tr>
+      <th>475</th>
+      <td>TeamBank, NA</td>
+      <td>Paola</td>
+      <td>KS</td>
+      <td>4754</td>
+      <td>Great Southern Bank</td>
+      <td>March 20, 2009</td>
+      <td>September 12, 2016</td>
+    </tr>
+    <tr>
+      <th>476</th>
+      <td>Colorado National Bank</td>
+      <td>Colorado Springs</td>
+      <td>CO</td>
+      <td>18896</td>
+      <td>Herring Bank</td>
+      <td>March 20, 2009</td>
+      <td>August 17, 2012</td>
+    </tr>
+    <tr>
+      <th>477</th>
+      <td>FirstCity Bank</td>
+      <td>Stockbridge</td>
+      <td>GA</td>
+      <td>18243</td>
+      <td>No Acquirer</td>
+      <td>March 20, 2009</td>
+      <td>August 17, 2012</td>
+    </tr>
+    <tr>
+      <th>478</th>
+      <td>Freedom Bank of Georgia</td>
+      <td>Commerce</td>
+      <td>GA</td>
+      <td>57558</td>
+      <td>Northeast Georgia Bank</td>
+      <td>March 6, 2009</td>
+      <td>August 17, 2012</td>
+    </tr>
+    <tr>
+      <th>479</th>
+      <td>Security Savings Bank</td>
+      <td>Henderson</td>
+      <td>NV</td>
+      <td>34820</td>
+      <td>Bank of Nevada</td>
+      <td>February 27, 2009</td>
+      <td>September 7, 2012</td>
+    </tr>
+    <tr>
+      <th>480</th>
+      <td>Heritage Community Bank</td>
+      <td>Glenwood</td>
+      <td>IL</td>
+      <td>20078</td>
+      <td>MB Financial Bank, N.A.</td>
+      <td>February 27, 2009</td>
+      <td>August 17, 2012</td>
+    </tr>
+    <tr>
+      <th>481</th>
+      <td>Silver Falls Bank</td>
+      <td>Silverton</td>
+      <td>OR</td>
+      <td>35399</td>
+      <td>Citizens Bank</td>
+      <td>February 20, 2009</td>
+      <td>August 17, 2012</td>
+    </tr>
+    <tr>
+      <th>482</th>
+      <td>Pinnacle Bank of Oregon</td>
+      <td>Beaverton</td>
+      <td>OR</td>
+      <td>57342</td>
+      <td>Washington Trust Bank of Spokane</td>
+      <td>February 13, 2009</td>
+      <td>December 7, 2015</td>
+    </tr>
+    <tr>
+      <th>483</th>
+      <td>Corn Belt Bank &amp; Trust Co.</td>
+      <td>Pittsfield</td>
+      <td>IL</td>
+      <td>16500</td>
+      <td>The Carlinville National Bank</td>
+      <td>February 13, 2009</td>
+      <td>August 17, 2012</td>
+    </tr>
+    <tr>
+      <th>484</th>
+      <td>Riverside Bank of the Gulf Coast</td>
+      <td>Cape Coral</td>
+      <td>FL</td>
+      <td>34563</td>
+      <td>TIB Bank</td>
+      <td>February 13, 2009</td>
+      <td>August 17, 2012</td>
+    </tr>
+    <tr>
+      <th>485</th>
+      <td>Sherman County Bank</td>
+      <td>Loup City</td>
+      <td>NE</td>
+      <td>5431</td>
+      <td>Heritage Bank</td>
+      <td>February 13, 2009</td>
+      <td>August 17, 2012</td>
+    </tr>
+    <tr>
+      <th>486</th>
+      <td>County Bank</td>
+      <td>Merced</td>
+      <td>CA</td>
+      <td>22574</td>
+      <td>Westamerica Bank</td>
+      <td>February 6, 2009</td>
+      <td>September 4, 2012</td>
+    </tr>
+    <tr>
+      <th>487</th>
+      <td>Alliance Bank</td>
+      <td>Culver City</td>
+      <td>CA</td>
+      <td>23124</td>
+      <td>California Bank &amp; Trust</td>
+      <td>February 6, 2009</td>
+      <td>August 16, 2012</td>
+    </tr>
+    <tr>
+      <th>488</th>
+      <td>FirstBank Financial Services</td>
+      <td>McDonough</td>
+      <td>GA</td>
+      <td>57017</td>
+      <td>Regions Bank</td>
+      <td>February 6, 2009</td>
+      <td>August 16, 2012</td>
+    </tr>
+    <tr>
+      <th>489</th>
+      <td>Ocala National Bank</td>
+      <td>Ocala</td>
+      <td>FL</td>
+      <td>26538</td>
+      <td>CenterState Bank of Florida, N.A.</td>
+      <td>January 30, 2009</td>
+      <td>September 4, 2012</td>
+    </tr>
+    <tr>
+      <th>490</th>
+      <td>Suburban FSB</td>
+      <td>Crofton</td>
+      <td>MD</td>
+      <td>30763</td>
+      <td>Bank of Essex</td>
+      <td>January 30, 2009</td>
+      <td>February 4, 2016</td>
+    </tr>
+    <tr>
+      <th>491</th>
+      <td>MagnetBank</td>
+      <td>Salt Lake City</td>
+      <td>UT</td>
+      <td>58001</td>
+      <td>No Acquirer</td>
+      <td>January 30, 2009</td>
+      <td>August 16, 2012</td>
+    </tr>
+    <tr>
+      <th>492</th>
+      <td>1st Centennial Bank</td>
+      <td>Redlands</td>
+      <td>CA</td>
+      <td>33025</td>
+      <td>First California Bank</td>
+      <td>January 23, 2009</td>
+      <td>April 13, 2016</td>
+    </tr>
+    <tr>
+      <th>493</th>
+      <td>Bank of Clark County</td>
+      <td>Vancouver</td>
+      <td>WA</td>
+      <td>34959</td>
+      <td>Umpqua Bank</td>
+      <td>January 16, 2009</td>
+      <td>August 16, 2012</td>
+    </tr>
+    <tr>
+      <th>494</th>
+      <td>National Bank of Commerce</td>
+      <td>Berkeley</td>
+      <td>IL</td>
+      <td>19733</td>
+      <td>Republic Bank of Chicago</td>
+      <td>January 16, 2009</td>
+      <td>August 16, 2012</td>
+    </tr>
+    <tr>
+      <th>495</th>
+      <td>Sanderson State Bank  En Espanol</td>
+      <td>Sanderson</td>
+      <td>TX</td>
+      <td>11568</td>
+      <td>The Pecos County State Bank</td>
+      <td>December 12, 2008</td>
+      <td>October 25, 2013</td>
+    </tr>
+    <tr>
+      <th>496</th>
+      <td>Haven Trust Bank</td>
+      <td>Duluth</td>
+      <td>GA</td>
+      <td>35379</td>
+      <td>Branch Banking &amp; Trust Company, (BB&amp;T)</td>
+      <td>December 12, 2008</td>
+      <td>August 16, 2012</td>
+    </tr>
+    <tr>
+      <th>497</th>
+      <td>First Georgia Community Bank</td>
+      <td>Jackson</td>
+      <td>GA</td>
+      <td>34301</td>
+      <td>United Bank</td>
+      <td>December 5, 2008</td>
+      <td>August 16, 2012</td>
+    </tr>
+    <tr>
+      <th>498</th>
+      <td>PFF Bank &amp; Trust</td>
+      <td>Pomona</td>
+      <td>CA</td>
+      <td>28344</td>
+      <td>U.S. Bank, N.A.</td>
+      <td>November 21, 2008</td>
+      <td>January 4, 2013</td>
+    </tr>
+    <tr>
+      <th>499</th>
+      <td>Downey Savings &amp; Loan</td>
+      <td>Newport Beach</td>
+      <td>CA</td>
+      <td>30968</td>
+      <td>U.S. Bank, N.A.</td>
+      <td>November 21, 2008</td>
+      <td>January 4, 2013</td>
+    </tr>
+    <tr>
+      <th>500</th>
+      <td>Community Bank</td>
+      <td>Loganville</td>
+      <td>GA</td>
+      <td>16490</td>
+      <td>Bank of Essex</td>
+      <td>November 21, 2008</td>
+      <td>September 4, 2012</td>
+    </tr>
+    <tr>
+      <th>501</th>
+      <td>Security Pacific Bank</td>
+      <td>Los Angeles</td>
+      <td>CA</td>
+      <td>23595</td>
+      <td>Pacific Western Bank</td>
+      <td>November 7, 2008</td>
+      <td>August 28, 2012</td>
+    </tr>
+    <tr>
+      <th>502</th>
+      <td>Franklin Bank, SSB</td>
+      <td>Houston</td>
+      <td>TX</td>
+      <td>26870</td>
+      <td>Prosperity Bank</td>
+      <td>November 7, 2008</td>
+      <td>August 16, 2012</td>
+    </tr>
+    <tr>
+      <th>503</th>
+      <td>Freedom Bank</td>
+      <td>Bradenton</td>
+      <td>FL</td>
+      <td>57930</td>
+      <td>Fifth Third Bank</td>
+      <td>October 31, 2008</td>
+      <td>August 16, 2012</td>
+    </tr>
+    <tr>
+      <th>504</th>
+      <td>Alpha Bank &amp; Trust</td>
+      <td>Alpharetta</td>
+      <td>GA</td>
+      <td>58241</td>
+      <td>Stearns Bank, N.A.</td>
+      <td>October 24, 2008</td>
+      <td>August 16, 2012</td>
+    </tr>
+    <tr>
+      <th>505</th>
+      <td>Meridian Bank</td>
+      <td>Eldred</td>
+      <td>IL</td>
+      <td>13789</td>
+      <td>National Bank</td>
+      <td>October 10, 2008</td>
+      <td>May 31, 2012</td>
+    </tr>
+    <tr>
+      <th>506</th>
+      <td>Main Street Bank</td>
+      <td>Northville</td>
+      <td>MI</td>
+      <td>57654</td>
+      <td>Monroe Bank &amp; Trust</td>
+      <td>October 10, 2008</td>
+      <td>August 1, 2013</td>
+    </tr>
+    <tr>
+      <th>507</th>
+      <td>Washington Mutual Bank  (Including its subsidiary Washington Mutual Bank FSB)</td>
+      <td>Henderson</td>
+      <td>NV</td>
+      <td>32633</td>
+      <td>JP Morgan Chase Bank</td>
+      <td>September 25, 2008</td>
+      <td>August 4, 2015</td>
+    </tr>
+    <tr>
+      <th>508</th>
+      <td>Ameribank</td>
+      <td>Northfork</td>
+      <td>WV</td>
+      <td>6782</td>
+      <td>The Citizens Savings Bank  Pioneer Community Bank, Inc.</td>
+      <td>September 19, 2008</td>
+      <td>September 21, 2015</td>
+    </tr>
+    <tr>
+      <th>509</th>
+      <td>Silver State Bank  En Espanol</td>
+      <td>Henderson</td>
+      <td>NV</td>
+      <td>34194</td>
+      <td>Nevada State Bank</td>
+      <td>September 5, 2008</td>
+      <td>October 25, 2013</td>
+    </tr>
+    <tr>
+      <th>510</th>
+      <td>Integrity Bank</td>
+      <td>Alpharetta</td>
+      <td>GA</td>
+      <td>35469</td>
+      <td>Regions Bank</td>
+      <td>August 29, 2008</td>
+      <td>August 16, 2012</td>
+    </tr>
+    <tr>
+      <th>511</th>
+      <td>Columbian Bank &amp; Trust</td>
+      <td>Topeka</td>
+      <td>KS</td>
+      <td>22728</td>
+      <td>Citizens Bank &amp; Trust</td>
+      <td>August 22, 2008</td>
+      <td>March 26, 2015</td>
+    </tr>
+    <tr>
+      <th>512</th>
+      <td>First Priority Bank</td>
+      <td>Bradenton</td>
+      <td>FL</td>
+      <td>57523</td>
+      <td>SunTrust Bank</td>
+      <td>August 1, 2008</td>
+      <td>March 26, 2015</td>
+    </tr>
+    <tr>
+      <th>513</th>
+      <td>First Heritage Bank, NA</td>
+      <td>Newport Beach</td>
+      <td>CA</td>
+      <td>57961</td>
+      <td>Mutual of Omaha Bank</td>
+      <td>July 25, 2008</td>
+      <td>September 12, 2016</td>
+    </tr>
+    <tr>
+      <th>514</th>
+      <td>First National Bank of Nevada</td>
+      <td>Reno</td>
+      <td>NV</td>
+      <td>27011</td>
+      <td>Mutual of Omaha Bank</td>
+      <td>July 25, 2008</td>
+      <td>August 28, 2012</td>
+    </tr>
+    <tr>
+      <th>515</th>
+      <td>IndyMac Bank</td>
+      <td>Pasadena</td>
+      <td>CA</td>
+      <td>29730</td>
+      <td>OneWest Bank, FSB</td>
+      <td>July 11, 2008</td>
+      <td>April 22, 2015</td>
+    </tr>
+    <tr>
+      <th>516</th>
+      <td>First Integrity Bank, NA</td>
+      <td>Staples</td>
+      <td>MN</td>
+      <td>12736</td>
+      <td>First International Bank and Trust</td>
+      <td>May 30, 2008</td>
+      <td>October 20, 2016</td>
+    </tr>
+    <tr>
+      <th>517</th>
+      <td>ANB Financial, NA</td>
+      <td>Bentonville</td>
+      <td>AR</td>
+      <td>33901</td>
+      <td>Pulaski Bank and Trust Company</td>
+      <td>May 9, 2008</td>
+      <td>August 28, 2012</td>
+    </tr>
+    <tr>
+      <th>518</th>
+      <td>Hume Bank</td>
+      <td>Hume</td>
+      <td>MO</td>
+      <td>1971</td>
+      <td>Security Bank</td>
+      <td>March 7, 2008</td>
+      <td>August 28, 2012</td>
+    </tr>
+    <tr>
+      <th>519</th>
+      <td>Douglass National Bank</td>
+      <td>Kansas City</td>
+      <td>MO</td>
+      <td>24660</td>
+      <td>Liberty Bank and Trust Company</td>
+      <td>January 25, 2008</td>
+      <td>October 26, 2012</td>
+    </tr>
+    <tr>
+      <th>520</th>
+      <td>Miami Valley Bank</td>
+      <td>Lakeview</td>
+      <td>OH</td>
+      <td>16848</td>
+      <td>The Citizens Banking Company</td>
+      <td>October 4, 2007</td>
+      <td>September 12, 2016</td>
+    </tr>
+    <tr>
+      <th>521</th>
+      <td>NetBank</td>
+      <td>Alpharetta</td>
+      <td>GA</td>
+      <td>32575</td>
+      <td>ING DIRECT</td>
+      <td>September 28, 2007</td>
+      <td>August 28, 2012</td>
+    </tr>
+    <tr>
+      <th>522</th>
+      <td>Metropolitan Savings Bank</td>
+      <td>Pittsburgh</td>
+      <td>PA</td>
+      <td>35353</td>
+      <td>Allegheny Valley Bank of Pittsburgh</td>
+      <td>February 2, 2007</td>
+      <td>October 27, 2010</td>
+    </tr>
+    <tr>
+      <th>523</th>
+      <td>Bank of Ephraim</td>
+      <td>Ephraim</td>
+      <td>UT</td>
+      <td>1249</td>
+      <td>Far West Bank</td>
+      <td>June 25, 2004</td>
+      <td>April 9, 2008</td>
+    </tr>
+    <tr>
+      <th>524</th>
+      <td>Reliance Bank</td>
+      <td>White Plains</td>
+      <td>NY</td>
+      <td>26778</td>
+      <td>Union State Bank</td>
+      <td>March 19, 2004</td>
+      <td>April 9, 2008</td>
+    </tr>
+    <tr>
+      <th>525</th>
+      <td>Guaranty National Bank of Tallahassee</td>
+      <td>Tallahassee</td>
+      <td>FL</td>
+      <td>26838</td>
+      <td>Hancock Bank of Florida</td>
+      <td>March 12, 2004</td>
+      <td>June 5, 2012</td>
+    </tr>
+    <tr>
+      <th>526</th>
+      <td>Dollar Savings Bank</td>
+      <td>Newark</td>
+      <td>NJ</td>
+      <td>31330</td>
+      <td>No Acquirer</td>
+      <td>February 14, 2004</td>
+      <td>April 9, 2008</td>
+    </tr>
+    <tr>
+      <th>527</th>
+      <td>Pulaski Savings Bank</td>
+      <td>Philadelphia</td>
+      <td>PA</td>
+      <td>27203</td>
+      <td>Earthstar Bank</td>
+      <td>November 14, 2003</td>
+      <td>July 22, 2005</td>
+    </tr>
+    <tr>
+      <th>528</th>
+      <td>First National Bank of Blanchardville</td>
+      <td>Blanchardville</td>
+      <td>WI</td>
+      <td>11639</td>
+      <td>The Park Bank</td>
+      <td>May 9, 2003</td>
+      <td>June 5, 2012</td>
+    </tr>
+    <tr>
+      <th>529</th>
+      <td>Southern Pacific Bank</td>
+      <td>Torrance</td>
+      <td>CA</td>
+      <td>27094</td>
+      <td>Beal Bank</td>
+      <td>February 7, 2003</td>
+      <td>October 20, 2008</td>
+    </tr>
+    <tr>
+      <th>530</th>
+      <td>Farmers Bank of Cheneyville</td>
+      <td>Cheneyville</td>
+      <td>LA</td>
+      <td>16445</td>
+      <td>Sabine State Bank &amp; Trust</td>
+      <td>December 17, 2002</td>
+      <td>October 20, 2004</td>
+    </tr>
+    <tr>
+      <th>531</th>
+      <td>Bank of Alamo</td>
+      <td>Alamo</td>
+      <td>TN</td>
+      <td>9961</td>
+      <td>No Acquirer</td>
+      <td>November 8, 2002</td>
+      <td>March 18, 2005</td>
+    </tr>
+    <tr>
+      <th>532</th>
+      <td>AmTrade International Bank  En Espanol</td>
+      <td>Atlanta</td>
+      <td>GA</td>
+      <td>33784</td>
+      <td>No Acquirer</td>
+      <td>September 30, 2002</td>
+      <td>September 11, 2006</td>
+    </tr>
+    <tr>
+      <th>533</th>
+      <td>Universal Federal Savings Bank</td>
+      <td>Chicago</td>
+      <td>IL</td>
+      <td>29355</td>
+      <td>Chicago Community Bank</td>
+      <td>June 27, 2002</td>
+      <td>April 9, 2008</td>
+    </tr>
+    <tr>
+      <th>534</th>
+      <td>Connecticut Bank of Commerce</td>
+      <td>Stamford</td>
+      <td>CT</td>
+      <td>19183</td>
+      <td>Hudson United Bank</td>
+      <td>June 26, 2002</td>
+      <td>February 14, 2012</td>
+    </tr>
+    <tr>
+      <th>535</th>
+      <td>New Century Bank</td>
+      <td>Shelby Township</td>
+      <td>MI</td>
+      <td>34979</td>
+      <td>No Acquirer</td>
+      <td>March 28, 2002</td>
+      <td>March 18, 2005</td>
+    </tr>
+    <tr>
+      <th>536</th>
+      <td>Net 1st National Bank</td>
+      <td>Boca Raton</td>
+      <td>FL</td>
+      <td>26652</td>
+      <td>Bank Leumi USA</td>
+      <td>March 1, 2002</td>
+      <td>April 9, 2008</td>
+    </tr>
+    <tr>
+      <th>537</th>
+      <td>NextBank, NA</td>
+      <td>Phoenix</td>
+      <td>AZ</td>
+      <td>22314</td>
+      <td>No Acquirer</td>
+      <td>February 7, 2002</td>
+      <td>February 5, 2015</td>
+    </tr>
+    <tr>
+      <th>538</th>
+      <td>Oakwood Deposit Bank Co.</td>
+      <td>Oakwood</td>
+      <td>OH</td>
+      <td>8966</td>
+      <td>The State Bank &amp; Trust Company</td>
+      <td>February 1, 2002</td>
+      <td>October 25, 2012</td>
+    </tr>
+    <tr>
+      <th>539</th>
+      <td>Bank of Sierra Blanca</td>
+      <td>Sierra Blanca</td>
+      <td>TX</td>
+      <td>22002</td>
+      <td>The Security State Bank of Pecos</td>
+      <td>January 18, 2002</td>
+      <td>November 6, 2003</td>
+    </tr>
+    <tr>
+      <th>540</th>
+      <td>Hamilton Bank, NA  En Espanol</td>
+      <td>Miami</td>
+      <td>FL</td>
+      <td>24382</td>
+      <td>Israel Discount Bank of New York</td>
+      <td>January 11, 2002</td>
+      <td>September 21, 2015</td>
+    </tr>
+    <tr>
+      <th>541</th>
+      <td>Sinclair National Bank</td>
+      <td>Gravette</td>
+      <td>AR</td>
+      <td>34248</td>
+      <td>Delta Trust &amp; Bank</td>
+      <td>September 7, 2001</td>
+      <td>February 10, 2004</td>
+    </tr>
+    <tr>
+      <th>542</th>
+      <td>Superior Bank, FSB</td>
+      <td>Hinsdale</td>
+      <td>IL</td>
+      <td>32646</td>
+      <td>Superior Federal, FSB</td>
+      <td>July 27, 2001</td>
+      <td>August 19, 2014</td>
+    </tr>
+    <tr>
+      <th>543</th>
+      <td>Malta National Bank</td>
+      <td>Malta</td>
+      <td>OH</td>
+      <td>6629</td>
+      <td>North Valley Bank</td>
+      <td>May 3, 2001</td>
+      <td>November 18, 2002</td>
+    </tr>
+    <tr>
+      <th>544</th>
+      <td>First Alliance Bank &amp; Trust Co.</td>
+      <td>Manchester</td>
+      <td>NH</td>
+      <td>34264</td>
+      <td>Southern New Hampshire Bank &amp; Trust</td>
+      <td>February 2, 2001</td>
+      <td>February 18, 2003</td>
+    </tr>
+    <tr>
+      <th>545</th>
+      <td>National State Bank of Metropolis</td>
+      <td>Metropolis</td>
+      <td>IL</td>
+      <td>3815</td>
+      <td>Banterra Bank of Marion</td>
+      <td>December 14, 2000</td>
+      <td>March 17, 2005</td>
+    </tr>
+    <tr>
+      <th>546</th>
+      <td>Bank of Honolulu</td>
+      <td>Honolulu</td>
+      <td>HI</td>
+      <td>21029</td>
+      <td>Bank of the Orient</td>
+      <td>October 13, 2000</td>
+      <td>March 17, 2005</td>
+    </tr>
+  </tbody>
+</table>
