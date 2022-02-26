@@ -25,4 +25,9 @@ Exporting_Data:
    - Excel data
    - Json data
    - HTML data
+
+Creating_Objects
+   - DataFrame 
+   - Series 
+   - Add Date Index
    
