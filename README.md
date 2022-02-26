@@ -31,3 +31,6 @@ Creating_Objects
    - Series 
    - Add Date Index
    
+Viewing/Inspecting_Data
+   - head/tail/info/describe/apply()
+   - shape
