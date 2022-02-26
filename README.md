@@ -19,3 +19,10 @@ Loading_Data:
    - Create date time
    - Load data from SQL lite, sql, mongodb
    - pandas cheet
+
+Exporting_Data:
+   - CSV data 
+   - Excel data
+   - Json data
+   - HTML data
+   
