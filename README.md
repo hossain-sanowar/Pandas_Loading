@@ -1,11 +1,11 @@
 # Pandas
 
 Loading_Data:
-    1. Load CSV data
-    2. Load Table data
-    3. Load Excel Data
-    4. Load SQL data
-    5. Load JSON data
+   - Load CSV data
+   - Load Table data
+   - Load Excel Data
+   - Load SQL data
+   - Load JSON data
     6. Load XML and HTML data
     7. Load Clipboard data
     8. Load dataframe
