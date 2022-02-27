@@ -38,3 +38,19 @@ Viewing/Inspecting_Data
 Data_selection
    - df[col]/df[[col]]
    - iloc[0]/loc[0]
+
+Data_Cleaning
+   - df.columns=['a','b']
+   - df.isnull()
+   - df.notnull()
+   - df.dropna()
+   - df.dropna(axis=1)
+   - df.dropna(axis=1,thresh=n)
+   - df.fillna(x)
+   - s.fillna(s.mean())
+   - s.astype(float)
+   - s.replace()
+   - df.rename(columns=lambda x:x+1)
+   - df.rename(columns={'old_name':'new_name'})
+   - df.set_index('column_one')
+   - df.rename(index=lambda x:x+1)
