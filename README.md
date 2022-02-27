@@ -54,3 +54,10 @@ Data_Cleaning
    - df.rename(columns={'old_name':'new_name'})
    - df.set_index('column_one')
    - df.rename(index=lambda x:x+1)
+
+Filter, Sort, and Groupby
+   - df[col]>0.5
+   - df.sort_values(col1)
+   - df.groupby()
+   - df.pivot_table()
+   - df.apply(np.mean)
