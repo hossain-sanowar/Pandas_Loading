@@ -61,3 +61,8 @@ Filter, Sort, and Groupby
    - df.groupby()
    - df.pivot_table()
    - df.apply(np.mean)
+
+Join/Combine
+   - df1.append(df2)
+   - pd.concat([df1,df2],axis=1)
+   - df1.join(df2,on=col1,how='inner/left/right/outer')
