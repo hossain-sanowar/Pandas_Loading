@@ -66,3 +66,13 @@ Join/Combine
    - df1.append(df2)
    - pd.concat([df1,df2],axis=1)
    - df1.join(df2,on=col1,how='inner/left/right/outer')
+
+Statistics
+   - df.describe()
+   - df.mean()
+   - df.corr()
+   - df.count()
+   - df.max()
+   - df.min()
+   - df.median()
+   - df.std()
