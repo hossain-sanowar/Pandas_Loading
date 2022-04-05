@@ -76,3 +76,4 @@ Statistics
    - df.min()
    - df.median()
    - df.std()
+   - df.sum()
